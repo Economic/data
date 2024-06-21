@@ -14,10 +14,7 @@ website:
         href: downloads.qmd
       - text: What's New
         href: news.qmd
-    right:
-      - icon: github
-        href: https://github.com/economic/dashboard_deploy_data
-        aria-label: SWA Data Library GitHub  
+
 format:
   html:
     theme: cosmo
