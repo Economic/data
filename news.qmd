@@ -2,5 +2,8 @@
 title: Changelog
 ---
 
+## Version 0.0.2
+* New indicators: unemployment, part-time, long-term unemployment, employment
+
 ## Version 0.0.1
 * Just getting this going.

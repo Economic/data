@@ -46,13 +46,20 @@
     "href": "news.html",
     "title": "Changelog",
     "section": "",
-    "text": "Just getting this going."
+    "text": "New indicators: unemployment, part-time, long-term unemployment, employment"
+  },
+  {
+    "objectID": "news.html#version-0.0.2",
+    "href": "news.html#version-0.0.2",
+    "title": "Changelog",
+    "section": "",
+    "text": "New indicators: unemployment, part-time, long-term unemployment, employment"
   },
   {
     "objectID": "news.html#version-0.0.1",
     "href": "news.html#version-0.0.1",
     "title": "Changelog",
-    "section": "",
-    "text": "Just getting this going."
+    "section": "Version 0.0.1",
+    "text": "Version 0.0.1\n\nJust getting this going."
   }
 ]
