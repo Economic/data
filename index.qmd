@@ -1,0 +1,12 @@
+---
+title: Welcome!
+params:
+  meta: "NA"
+execute:
+  echo: false
+---
+
+This is the documentation for the State of Working America Data Library.
+
+It is very much a work in progress!
+

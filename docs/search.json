@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "available_data.html",
+    "href": "available_data.html",
+    "title": "Available data",
+    "section": "",
+    "text": "Data for release Version 0.0.1:"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome!",
+    "section": "",
+    "text": "This is the documentation for the State of Working America Data Library.\nIt is very much a work in progress!"
+  },
+  {
+    "objectID": "downloads.html",
+    "href": "downloads.html",
+    "title": "Download all the data",
+    "section": "",
+    "text": "Download .csv files of latest data: epi_swa_data_library.zip\nArchived versions of the data are here."
+  },
+  {
+    "objectID": "downloads.html#data-files",
+    "href": "downloads.html#data-files",
+    "title": "Download all the data",
+    "section": "",
+    "text": "Download .csv files of latest data: epi_swa_data_library.zip\nArchived versions of the data are here."
+  },
+  {
+    "objectID": "downloads.html#citation",
+    "href": "downloads.html#citation",
+    "title": "Download all the data",
+    "section": "Citation",
+    "text": "Citation\nTK You can cite the data like this"
+  },
+  {
+    "objectID": "downloads.html#schema",
+    "href": "downloads.html#schema",
+    "title": "Download all the data",
+    "section": "Schema",
+    "text": "Schema\nTK There are a bunch of csv files, these are what they are and what they look like"
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "Changelog",
+    "section": "",
+    "text": "Just getting this going."
+  },
+  {
+    "objectID": "news.html#version-0.0.1",
+    "href": "news.html#version-0.0.1",
+    "title": "Changelog",
+    "section": "",
+    "text": "Just getting this going."
+  }
+]

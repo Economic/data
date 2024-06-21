@@ -1,0 +1,16 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+.Random.seed|object|4c9242a865bc9622|||||||||||||||
+all_stats|stem|e9d7a72b2720c4f0|d0247d05a8c48009|ec34d2b11f54e761|-1233776726||t19895.6664332878s|f45920380e3d0fe2|8387372|parquet|local|vector|||0.267||
+binary_release|stem|ff48f66d7eeb1683|a39162cbe79c4e6d|fca78c127487de05|-454535524|release/epi_swa_data_library.zip|t19895.6614088841s|eb4fe643d594ba95|13864149|file|local|vector|||2.886||
+check_batch_id_equal|function|6d773a3dcfbd85d4|||||||||||||||
+create_binary_release|function|7cad560370e2b996|||||||||||||||
+create_csv_release|function|d80ec9094538404f|||||||||||||||
+create_new_gh_version|function|9205590b9ded6db4|||||||||||||||
+csv_release_files|stem|5f0e145c4c1487ff|0a43c95b506c3467|621d2fd29245142f|-1020294716|release/unemployment.csv*release/minimum_wage.csv*release/price_indexes.csv*release/inflation_rates.csv*release/union_membership.csv*release/union_wage_premium.csv|t19895.6613330514s|366f4bb331f37ef8|107078046|file|local|vector|||1.43||
+dashboard_data_path|object|0da788a8de290f69|||||||||||||||
+data_release_version|object|5400b8c6b0217d29|||||||||||||||
+database_version|object|5400b8c6b0217d29|||||||||||||||
+raw_release_files|stem|405199b596910c77|3f7df0a52f2e7dc9|f43c7797602db426|-915887087||t19895.666427362s|cb5de256bff6bdf1|247|rds|local|vector|||0.001||
+upload_gh_release_files|function|2ed5f203bb8fd5c3|||||||||||||||
+website|stem|dcb6d634738e34f9|4701a0589e21adb4|953ed73f5dacf7f5|-385122080|docs*available_data.qmd*downloads.qmd*index.qmd*news.qmd*_quarto.yml*.nojekyll|t19895.6680236457s|105da68183621e6e|8828|file|local|vector|||4.651||
+write_single_indicator_file|function|ba956f7c694c1f87|||||||||||||||

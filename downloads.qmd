@@ -1,0 +1,18 @@
+---
+title: Download all the data
+---
+
+## Data files
+
+Download .csv files of latest data: [epi_swa_data_library.zip](https://github.com/Economic/dashboard_deploy_data/releases/latest/download/epi_swa_data_library.zip)
+
+Archived versions of the data are [here](https://github.com/Economic/dashboard_deploy_data/releases/).
+
+## Citation
+
+TK You can cite the data like this
+
+## Schema
+
+TK There are a bunch of csv files, these are what they are and what they look like
+
