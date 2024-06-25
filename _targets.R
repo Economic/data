@@ -7,13 +7,12 @@ data_release_version = "0.0.4"
 
 # Dashboard data location
 dashboard_data_path = Sys.getenv("DASHBOARD_DATA_DIR")
+raw_release_files = dir_ls(dashboard_data_path)
 
 ## Load your R files
 lapply(list.files("./R", full.names = TRUE), source)
 
 tar_plan(
-  
-  raw_release_files = dir_ls(dashboard_data_path),
   
   # to do: modify CSV column names
   # remove date column and replace with year and month
