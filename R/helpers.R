@@ -10,12 +10,19 @@ create_csv_release <- function(files, output_dir, data_version) {
 }
 
 check_batch_id_equal <- function(files) {
-  number_batch_ids = open_dataset(files) |> 
-    select(batch_id) |> 
-    collect() |> 
-    pull(batch_id) |> 
-    unique() |> 
-    length()
+  dataset = open_dataset(files) 
+  
+  # some problem with the meta data I don't understand
+  # going to silence for now
+  suppressWarnings({
+    number_batch_ids = dataset |> 
+      select(batch_id) |> 
+      collect() |> 
+      pull(batch_id) |> 
+      unique() |> 
+      length()
+  })
+
   
   stopifnot(number_batch_ids == 1)
 }

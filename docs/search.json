@@ -4,7 +4,7 @@
     "href": "available_data.html",
     "title": "Available data",
     "section": "",
-    "text": "Data for release Version 0.0.2:"
+    "text": "Data for release Version 0.0.4:"
   },
   {
     "objectID": "index.html",
@@ -35,25 +35,46 @@
     "text": "Citation\nTK You can cite the data like this"
   },
   {
-    "objectID": "downloads.html#schema",
-    "href": "downloads.html#schema",
+    "objectID": "downloads.html#data-files-1",
+    "href": "downloads.html#data-files-1",
     "title": "Download all the data",
-    "section": "Schema",
-    "text": "Schema\nTK There are a bunch of csv files, these are what they are and what they look like"
+    "section": "Data files",
+    "text": "Data files\nThe epi_swa_data_library.zip is a zipped collection of .csv files, where each file is a particular “indicator” or outcome on the EPI Data Library.\nThe current release of the data contains the following .csv files:\n\n\n\n\n\nFile name\nIndicator\n\n\n\n\nemployment.csv\nEmployment\n\n\ninflation_rates.csv\nInflation rates\n\n\nlabor_force_participation.csv\nLabor force participation\n\n\nlong_term_unemployment.csv\nLong-term unemployment\n\n\nminimum_wage.csv\nMinimum wage\n\n\npart_time.csv\nPart-time\n\n\npayroll_earnings_by_industry.csv\nPayroll earnings by industry\n\n\npayroll_employment_by_industry.csv\nPayroll employment by industry\n\n\nprice_indexes.csv\nPrice indexes\n\n\nunemployment.csv\nUnemployment\n\n\nunion_membership.csv\nUnion membership\n\n\nunion_wage_premium.csv\nUnion wage premium"
+  },
+  {
+    "objectID": "downloads.html#file-contents",
+    "href": "downloads.html#file-contents",
+    "title": "Download all the data",
+    "section": "File contents",
+    "text": "File contents\nEach .csv file contains the following columns\n\n\n\n\n\n\n\n\n\nColumn name\nColumn description\n\n\n\n\ndata_version\nVersion of the data\n\n\nindicator_name\nIndicator\n\n\ngeo_name\nGeography name\n\n\ngeo_id\nGeographic identifier\n\n\nmeasure_name\nOutcome measure\n\n\ndate\nDate\n\n\ndate_interval\nTime frequency of the data: ‘year’ or ‘month’\n\n\ndimension_names\nDimension groups: e.g, ‘Gender’ or ‘Race/Ethnicity X Gender’\n\n\ndimension_value_names\nDimension values: e.g., ‘Female’ or ‘Hispanic X Female’\n\n\nvalue\nData value\n\n\n\n\n\nEach time series in the EPI Data Library is a unique combination of the columns indicator_name geo_name measure_name date_interval dimension_value_names.\nEach row of the data represents a value from a given time series."
   },
   {
     "objectID": "news.html",
     "href": "news.html",
     "title": "Changelog",
     "section": "",
-    "text": "New indicators: unemployment, part-time, long-term unemployment, employment"
+    "text": "New indicators: hourly wage levels & percentiles, and SSA top wages"
+  },
+  {
+    "objectID": "news.html#version-0.0.04",
+    "href": "news.html#version-0.0.04",
+    "title": "Changelog",
+    "section": "",
+    "text": "New indicators: hourly wage levels & percentiles, and SSA top wages"
+  },
+  {
+    "objectID": "news.html#version-0.0.3",
+    "href": "news.html#version-0.0.3",
+    "title": "Changelog",
+    "section": "Version 0.0.3",
+    "text": "Version 0.0.3\n\nNew indicators: payroll employment and wages"
   },
   {
     "objectID": "news.html#version-0.0.2",
     "href": "news.html#version-0.0.2",
     "title": "Changelog",
-    "section": "",
-    "text": "New indicators: unemployment, part-time, long-term unemployment, employment"
+    "section": "Version 0.0.2",
+    "text": "Version 0.0.2\n\nNew indicators: unemployment, part-time, long-term unemployment, employment"
   },
   {
     "objectID": "news.html#version-0.0.1",

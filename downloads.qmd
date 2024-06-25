@@ -1,6 +1,18 @@
 ---
 title: Download all the data
+execute:
+  echo: false
 ---
+```{r}
+#| include: false
+#| message: false
+library(tidyverse)
+library(targets)
+library(kableExtra)
+library(janitor)
+
+all_stats <- tar_read(all_stats)
+```
 
 ## Data files
 
@@ -12,7 +24,52 @@ Archived versions of the data are [here](https://github.com/Economic/dashboard_d
 
 TK You can cite the data like this
 
-## Schema
+## Data files
+The [epi_swa_data_library.zip](https://github.com/Economic/dashboard_deploy_data/releases/latest/download/epi_swa_data_library.zip) is a zipped collection of .csv files, where each file is a particular "indicator" or outcome on the EPI Data Library.
 
-TK There are a bunch of csv files, these are what they are and what they look like
+The current release of the data contains the following .csv files:
+
+```{r}
+all_stats |> 
+  distinct(indicator_name) |> 
+  mutate(
+    file_name = make_clean_names(indicator_name),
+    file_name = paste0(file_name, ".csv")
+  ) |> 
+  select(file_name, indicator_name) |> 
+  arrange(file_name) |> 
+  kable(col.names = c("File name", "Indicator"))
+```
+
+## File contents
+Each .csv file contains the following columns
+
+```{r}
+tar_read(all_stats) |> 
+  colnames() |> 
+  as_tibble() |> 
+  rename(col_name = value) |> 
+  mutate(col_description = case_match(
+    col_name,
+    "data_version" ~ "Version of the data",
+    "indicator_name" ~ "Indicator",
+    "geo_name" ~ "Geography name",
+    "geo_id" ~ "Geographic identifier",
+    "measure_name" ~ "Outcome measure",
+    "date" ~ "Date",
+    "date_interval" ~ "Time frequency of the data: 'year' or 'month'",
+    "dimension_names" ~ "Dimension groups: e.g, 'Gender' or 'Race/Ethnicity X Gender'",
+    "dimension_value_names" ~ "Dimension values: e.g., 'Female' or 'Hispanic X Female'",
+    "value" ~ "Data value"
+  )) |> 
+  kable(col.names = c("Column name", "Column description"))
+```
+Each time series in the EPI Data Library is a unique combination of the columns
+`indicator_name`
+`geo_name`
+`measure_name`
+`date_interval`
+`dimension_value_names`.
+
+Each row of the data represents a value from a given time series.
 

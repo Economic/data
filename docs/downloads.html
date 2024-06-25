@@ -125,9 +125,136 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="citation">Citation</h2>
 <p>TK You can cite the data like this</p>
 </section>
-<section id="schema" class="level2">
-<h2 class="anchored" data-anchor-id="schema">Schema</h2>
-<p>TK There are a bunch of csv files, these are what they are and what they look like</p>
+<section id="data-files-1" class="level2">
+<h2 class="anchored" data-anchor-id="data-files-1">Data files</h2>
+<p>The <a href="https://github.com/Economic/dashboard_deploy_data/releases/latest/download/epi_swa_data_library.zip">epi_swa_data_library.zip</a> is a zipped collection of .csv files, where each file is a particular “indicator” or outcome on the EPI Data Library.</p>
+<p>The current release of the data contains the following .csv files:</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th style="text-align: left;">File name</th>
+<th style="text-align: left;">Indicator</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">employment.csv</td>
+<td style="text-align: left;">Employment</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">inflation_rates.csv</td>
+<td style="text-align: left;">Inflation rates</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">labor_force_participation.csv</td>
+<td style="text-align: left;">Labor force participation</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">long_term_unemployment.csv</td>
+<td style="text-align: left;">Long-term unemployment</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">minimum_wage.csv</td>
+<td style="text-align: left;">Minimum wage</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">part_time.csv</td>
+<td style="text-align: left;">Part-time</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">payroll_earnings_by_industry.csv</td>
+<td style="text-align: left;">Payroll earnings by industry</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">payroll_employment_by_industry.csv</td>
+<td style="text-align: left;">Payroll employment by industry</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">price_indexes.csv</td>
+<td style="text-align: left;">Price indexes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">unemployment.csv</td>
+<td style="text-align: left;">Unemployment</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">union_membership.csv</td>
+<td style="text-align: left;">Union membership</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">union_wage_premium.csv</td>
+<td style="text-align: left;">Union wage premium</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<section id="file-contents" class="level2">
+<h2 class="anchored" data-anchor-id="file-contents">File contents</h2>
+<p>Each .csv file contains the following columns</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="table table-sm table-striped small">
+<colgroup>
+<col style="width: 26%">
+<col style="width: 73%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Column name</th>
+<th style="text-align: left;">Column description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">data_version</td>
+<td style="text-align: left;">Version of the data</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">indicator_name</td>
+<td style="text-align: left;">Indicator</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">geo_name</td>
+<td style="text-align: left;">Geography name</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">geo_id</td>
+<td style="text-align: left;">Geographic identifier</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">measure_name</td>
+<td style="text-align: left;">Outcome measure</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">date</td>
+<td style="text-align: left;">Date</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">date_interval</td>
+<td style="text-align: left;">Time frequency of the data: ‘year’ or ‘month’</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">dimension_names</td>
+<td style="text-align: left;">Dimension groups: e.g, ‘Gender’ or ‘Race/Ethnicity X Gender’</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">dimension_value_names</td>
+<td style="text-align: left;">Dimension values: e.g., ‘Female’ or ‘Hispanic X Female’</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">value</td>
+<td style="text-align: left;">Data value</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>Each time series in the EPI Data Library is a unique combination of the columns <code>indicator_name</code> <code>geo_name</code> <code>measure_name</code> <code>date_interval</code> <code>dimension_value_names</code>.</p>
+<p>Each row of the data represents a value from a given time series.</p>
 
 
 </section>

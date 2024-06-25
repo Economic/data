@@ -2,6 +2,12 @@
 title: Changelog
 ---
 
+## Version 0.0.04
+* New indicators: hourly wage levels & percentiles, and SSA top wages
+
+## Version 0.0.3
+* New indicators: payroll employment and wages
+
 ## Version 0.0.2
 * New indicators: unemployment, part-time, long-term unemployment, employment
 
