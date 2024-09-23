@@ -11,8 +11,7 @@ options(usethis.quiet = TRUE)
 # packages for this analysis
 suppressPackageStartupMessages({
   library(tidyverse)
-  library(arrow)
-  library(piggyback)
+  library(nanoparquet)
   library(zip)
   library(janitor)
   library(fs)

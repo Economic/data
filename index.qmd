@@ -1,12 +1,93 @@
 ---
-title: Welcome!
-params:
-  meta: "NA"
+title: Download all the data
 execute:
   echo: false
+params:
+  data_version: "default_version"
 ---
 
-This is the documentation for the State of Working America Data Library.
+```{r}
+#| include: false
+#| message: false
+library(tidyverse)
+library(targets)
+library(kableExtra)
+library(janitor)
 
-It is very much a work in progress!
+all_data = tar_read(all_data)
+
+data_version = all_data |> 
+  filter(row_number() == 1) |> 
+  pull(data_version)
+
+```
+
+This site provides all of the data underlying the [EPI State of Working America Data Library](https://data.epi.org). If you only need a small subset of data, it might be easiest to just use data library [site](https://data.epi.org). 
+
+But if you want *all* of the data:
+
+## Downloads
+
+Download .csv files of latest version of the data, Version `r data_version`: [epi_swa_data_library.zip](https://github.com/Economic/data/releases/latest/download/epi_swa_data_library.zip)
+
+Archived versions of the data are [here](https://github.com/Economic/data/releases/).
+
+## Citation
+
+If you use the data, please cite it:
+
+::: {.callout-note}
+## Source
+Economic Policy Institute. 2024. State of Working America Data Library, Version `r data_version`. <https://data.epi.org>.
+:::
+
+## Data file contents
+
+[epi_swa_data_library.zip](https://github.com/Economic/dashboard_deploy_data/releases/latest/download/epi_swa_data_library.zip) is a zipped collection of .csv files, where each file is a particular "indicator" or outcome on the EPI State of Working America Data Library.
+
+The current release of the data contains the following .csv files:
+
+```{r}
+all_data |>
+  distinct(indicator) |>
+  mutate(
+    file_name = make_clean_names(indicator),
+    file_name = paste0(file_name, ".csv")
+  ) |>
+  select(file_name, indicator) |>
+  arrange(file_name) |>
+  kable(col.names = c("File name", "Indicator"))
+```
+
+## File contents
+
+Each .csv file contains the following columns
+
+```{r}
+all_data |>
+  colnames() |>
+  as_tibble() |>
+  rename(col_name = value) |>
+  mutate(col_description = case_match(
+    col_name,
+    "data_version" ~ "Version of the data",
+    "indicator" ~ "Indicator",
+    "measure" ~ "Outcome measure",
+    "date_interval" ~ "Time frequency of the data: 'year', 'quarter', or 'month'",
+    "year" ~ "Year",
+    "quarter" ~ "Quarter",
+    "month" ~ "Month",
+    "geo_type" ~ "Geography type: 'national', 'state', 'division', or 'region'",
+    "geo_name" ~ "Geography name",
+    "geo_code" ~ "Numeric geographic identifier",
+    "group" ~ "Group: e.g, 'Gender' or 'Race/Ethnicity X Gender'",
+    "group_value" ~ "Group value: e.g., 'Female' or 'Hispanic X Female'",
+    "value" ~ "Data value"
+  )) |>
+  kable(col.names = c("Column name", "Column description"))
+```
+
+Each time series in the EPI Data Library is a unique combination of the columns `indicator` `geo_name` `measure` `year` `month` `quarter` `group_value`
+
+Each row of the data represents a value from a given time series.
 

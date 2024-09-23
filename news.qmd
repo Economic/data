@@ -2,14 +2,7 @@
 title: Changelog
 ---
 
-## Version 0.0.04
-* New indicators: hourly wage levels & percentiles, and SSA top wages
+## Version 0.9.0
+* Updated CPS ORG and Basic-based indicators through August 2024.
+* Updated teacher pay gap with [Allegretto 2023](https://www.epi.org/publication/teacher-pay-in-2023/).
 
-## Version 0.0.3
-* New indicators: payroll employment and wages
-
-## Version 0.0.2
-* New indicators: unemployment, part-time, long-term unemployment, employment
-
-## Version 0.0.1
-* Just getting this going.

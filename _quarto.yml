@@ -8,10 +8,6 @@ website:
   navbar:
     background: light
     left:
-      - text: Available data
-        href: available_data.qmd
-      - text: Downloads
-        href: downloads.qmd
       - text: What's New
         href: news.qmd
 

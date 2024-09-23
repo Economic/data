@@ -1,86 +1,51 @@
 [
   {
-    "objectID": "available_data.html",
-    "href": "available_data.html",
-    "title": "Available data",
-    "section": "",
-    "text": "Data for release Version 0.0.4:"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome!",
-    "section": "",
-    "text": "This is the documentation for the State of Working America Data Library.\nIt is very much a work in progress!"
-  },
-  {
-    "objectID": "downloads.html",
-    "href": "downloads.html",
     "title": "Download all the data",
     "section": "",
-    "text": "Download .csv files of latest data: epi_swa_data_library.zip\nArchived versions of the data are here."
+    "text": "This site provides all of the data underlying the EPI State of Working America Data Library. If you only need a small subset of data, it might be easiest to just use data library site.\nBut if you want all of the data:"
   },
   {
-    "objectID": "downloads.html#data-files",
-    "href": "downloads.html#data-files",
+    "objectID": "index.html#downloads",
+    "href": "index.html#downloads",
     "title": "Download all the data",
-    "section": "",
-    "text": "Download .csv files of latest data: epi_swa_data_library.zip\nArchived versions of the data are here."
+    "section": "Downloads",
+    "text": "Downloads\nDownload .csv files of latest version of the data, Version 0.9.0: epi_swa_data_library.zip\nArchived versions of the data are here."
   },
   {
-    "objectID": "downloads.html#citation",
-    "href": "downloads.html#citation",
+    "objectID": "index.html#citation",
+    "href": "index.html#citation",
     "title": "Download all the data",
     "section": "Citation",
-    "text": "Citation\nTK You can cite the data like this"
+    "text": "Citation\nIf you use the data, please cite it:\n\n\n\n\n\n\nSource\n\n\n\nEconomic Policy Institute. 2024. State of Working America Data Library, Version 0.9.0. https://data.epi.org."
   },
   {
-    "objectID": "downloads.html#data-files-1",
-    "href": "downloads.html#data-files-1",
+    "objectID": "index.html#data-file-contents",
+    "href": "index.html#data-file-contents",
     "title": "Download all the data",
-    "section": "Data files",
-    "text": "Data files\nThe epi_swa_data_library.zip is a zipped collection of .csv files, where each file is a particular “indicator” or outcome on the EPI Data Library.\nThe current release of the data contains the following .csv files:\n\n\n\n\n\n\n\n\n\nFile name\nIndicator\n\n\n\n\nannual_wages_for_the_top_1_percent_and_bottom_90_percent.csv\nAnnual wages for the top 1% and bottom 90%\n\n\nemployment.csv\nEmployment\n\n\nhourly_wage_levels.csv\nHourly wage levels\n\n\nhourly_wage_percentiles.csv\nHourly wage percentiles\n\n\ninflation_rates.csv\nInflation rates\n\n\nlabor_force_participation.csv\nLabor force participation\n\n\nlong_term_unemployment.csv\nLong-term unemployment\n\n\nminimum_wage.csv\nMinimum wage\n\n\npart_time.csv\nPart-time\n\n\npayroll_earnings_by_industry.csv\nPayroll earnings by industry\n\n\npayroll_employment_by_industry.csv\nPayroll employment by industry\n\n\nprice_indexes.csv\nPrice indexes\n\n\nunemployment.csv\nUnemployment\n\n\nunion_membership.csv\nUnion membership\n\n\nunion_wage_premium.csv\nUnion wage premium"
+    "section": "Data file contents",
+    "text": "Data file contents\nepi_swa_data_library.zip is a zipped collection of .csv files, where each file is a particular “indicator” or outcome on the EPI State of Working America Data Library.\nThe current release of the data contains the following .csv files:\n\n\n\n\n\n\n\n\n\nFile name\nIndicator\n\n\n\n\nannual_wages_for_the_top_1_percent_and_bottom_90_percent.csv\nAnnual wages for the top 1% and bottom 90%\n\n\nblack_white_wage_gap.csv\nBlack-white wage gap\n\n\ncivilian_population.csv\nCivilian population\n\n\ncollege_wage_premium.csv\nCollege wage premium\n\n\nemployment.csv\nEmployment\n\n\ngender_wage_gap.csv\nGender wage gap\n\n\nhispanic_white_wage_gap.csv\nHispanic-white wage gap\n\n\nhourly_wage_average.csv\nHourly wage, average\n\n\nhourly_wage_median.csv\nHourly wage, median\n\n\nhourly_wage_percentile_ratios.csv\nHourly wage percentile ratios\n\n\nhourly_wage_percentiles.csv\nHourly wage percentiles\n\n\ninflation_rates.csv\nInflation rates\n\n\nlabor_force_participation.csv\nLabor force participation\n\n\nlong_term_unemployment.csv\nLong-term unemployment\n\n\nmarket_poverty.csv\nMarket poverty\n\n\nminimum_wage.csv\nMinimum wage\n\n\npart_time.csv\nPart-time\n\n\npayroll_earnings_by_industry.csv\nPayroll earnings by industry\n\n\npayroll_employment_by_industry.csv\nPayroll employment by industry\n\n\nprice_indexes.csv\nPrice indexes\n\n\nproductivity_and_pay_indexes.csv\nProductivity and pay indexes\n\n\nproductivity_and_pay_levels.csv\nProductivity and pay levels\n\n\nsupplemental_poverty_measure.csv\nSupplemental poverty measure\n\n\nteacher_pay_gap.csv\nTeacher pay gap\n\n\ntime_at_work.csv\nTime at work\n\n\nunemployment.csv\nUnemployment\n\n\nunion_membership.csv\nUnion membership\n\n\nunion_wage_premium.csv\nUnion wage premium"
   },
   {
-    "objectID": "downloads.html#file-contents",
-    "href": "downloads.html#file-contents",
+    "objectID": "index.html#file-contents",
+    "href": "index.html#file-contents",
     "title": "Download all the data",
     "section": "File contents",
-    "text": "File contents\nEach .csv file contains the following columns\n\n\n\n\n\n\n\n\n\nColumn name\nColumn description\n\n\n\n\ndata_version\nVersion of the data\n\n\nindicator_name\nIndicator\n\n\ngeo_name\nGeography name\n\n\ngeo_id\nGeographic identifier\n\n\nmeasure_name\nOutcome measure\n\n\ndate\nDate\n\n\ndate_interval\nTime frequency of the data: ‘year’ or ‘month’\n\n\ndimension_names\nDimension groups: e.g, ‘Gender’ or ‘Race/Ethnicity X Gender’\n\n\ndimension_value_names\nDimension values: e.g., ‘Female’ or ‘Hispanic X Female’\n\n\nvalue\nData value\n\n\n\n\n\nEach time series in the EPI Data Library is a unique combination of the columns indicator_name geo_name measure_name date_interval dimension_value_names.\nEach row of the data represents a value from a given time series."
+    "text": "File contents\nEach .csv file contains the following columns\n\n\n\n\n\n\n\n\n\nColumn name\nColumn description\n\n\n\n\ndata_version\nVersion of the data\n\n\nindicator\nIndicator\n\n\nmeasure\nOutcome measure\n\n\ndate_interval\nTime frequency of the data: ‘year’, ‘quarter’, or ‘month’\n\n\nyear\nYear\n\n\nquarter\nQuarter\n\n\nmonth\nMonth\n\n\ngeo_type\nGeography type: ‘national’, ‘state’, ‘division’, or ‘region’\n\n\ngeo_name\nGeography name\n\n\ngeo_code\nNumeric geographic identifier\n\n\ngroup\nGroup: e.g, ‘Gender’ or ‘Race/Ethnicity X Gender’\n\n\ngroup_value\nGroup value: e.g., ‘Female’ or ‘Hispanic X Female’\n\n\nvalue\nData value\n\n\n\n\n\nEach time series in the EPI Data Library is a unique combination of the columns indicator geo_name measure year month quarter group_value\nEach row of the data represents a value from a given time series."
   },
   {
     "objectID": "news.html",
     "href": "news.html",
     "title": "Changelog",
     "section": "",
-    "text": "New indicators: hourly wage levels & percentiles, and SSA top wages"
+    "text": "Updated CPS ORG and Basic-based indicators through August 2024.\nUpdated teacher pay gap with Allegretto 2023."
   },
   {
-    "objectID": "news.html#version-0.0.04",
-    "href": "news.html#version-0.0.04",
+    "objectID": "news.html#version-0.9.0",
+    "href": "news.html#version-0.9.0",
     "title": "Changelog",
     "section": "",
-    "text": "New indicators: hourly wage levels & percentiles, and SSA top wages"
-  },
-  {
-    "objectID": "news.html#version-0.0.3",
-    "href": "news.html#version-0.0.3",
-    "title": "Changelog",
-    "section": "Version 0.0.3",
-    "text": "Version 0.0.3\n\nNew indicators: payroll employment and wages"
-  },
-  {
-    "objectID": "news.html#version-0.0.2",
-    "href": "news.html#version-0.0.2",
-    "title": "Changelog",
-    "section": "Version 0.0.2",
-    "text": "Version 0.0.2\n\nNew indicators: unemployment, part-time, long-term unemployment, employment"
-  },
-  {
-    "objectID": "news.html#version-0.0.1",
-    "href": "news.html#version-0.0.1",
-    "title": "Changelog",
-    "section": "Version 0.0.1",
-    "text": "Version 0.0.1\n\nJust getting this going."
+    "text": "Updated CPS ORG and Basic-based indicators through August 2024.\nUpdated teacher pay gap with Allegretto 2023."
   }
 ]
