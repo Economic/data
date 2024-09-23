@@ -43,7 +43,7 @@ Economic Policy Institute. 2024. State of Working America Data Library, Version 
 
 ## Data file contents
 
-[epi_swa_data_library.zip](https://github.com/Economic/dashboard_deploy_data/releases/latest/download/epi_swa_data_library.zip) is a zipped collection of .csv files, where each file is a particular "indicator" or outcome on the EPI State of Working America Data Library.
+[epi_swa_data_library.zip](https://github.com/Economic/data/releases/latest/download/epi_swa_data_library.zip) is a zipped collection of .csv files, where each file is a particular "indicator" or outcome on the EPI State of Working America Data Library.
 
 The current release of the data contains the following .csv files:
 
