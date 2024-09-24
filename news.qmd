@@ -2,6 +2,10 @@
 title: Changelog
 ---
 
+## Version 0.10.0
+* Updated CEO pay with [Bivens Gould Kandra 2023](https://www.epi.org/publication/ceo-pay-in-2023/)
+* Added undermployment indicator
+
 ## Version 0.9.0
 * Updated CPS ORG and Basic-based indicators through August 2024.
 * Updated teacher pay gap with [Allegretto 2023](https://www.epi.org/publication/teacher-pay-in-2023/).
