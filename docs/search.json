@@ -11,21 +11,21 @@
     "href": "index.html#downloads",
     "title": "Download all the data",
     "section": "Downloads",
-    "text": "Downloads\nDownload .csv files of latest version of the data, Version 0.10.0: epi_swa_data_library.zip\nArchived versions of the data are here."
+    "text": "Downloads\nDownload .csv files of latest version of the data, Version 0.11.0: epi_swa_data_library.zip\nArchived versions of the data are here."
   },
   {
     "objectID": "index.html#citation",
     "href": "index.html#citation",
     "title": "Download all the data",
     "section": "Citation",
-    "text": "Citation\nIf you use the data, please cite it:\n\n\n\n\n\n\nSource\n\n\n\nEconomic Policy Institute. 2024. State of Working America Data Library, Version 0.10.0. https://data.epi.org."
+    "text": "Citation\nIf you use the data, please cite it:\n\n\n\n\n\n\nSource\n\n\n\nEconomic Policy Institute. 2024. State of Working America Data Library, Version 0.11.0. https://data.epi.org."
   },
   {
     "objectID": "index.html#data-file-contents",
     "href": "index.html#data-file-contents",
     "title": "Download all the data",
     "section": "Data file contents",
-    "text": "Data file contents\nepi_swa_data_library.zip is a zipped collection of .csv files, where each file is a particular “indicator” or outcome on the EPI State of Working America Data Library.\nThe current release of the data contains the following .csv files:\n\n\n\n\n\n\n\n\n\nFile name\nIndicator\n\n\n\n\nannual_wages_for_the_top_1_percent_and_bottom_90_percent.csv\nAnnual wages for the top 1% and bottom 90%\n\n\nblack_white_wage_gap.csv\nBlack-white wage gap\n\n\nceo_pay_ratio.csv\nCEO pay ratio\n\n\ncivilian_population.csv\nCivilian population\n\n\ncollege_wage_premium.csv\nCollege wage premium\n\n\nemployment.csv\nEmployment\n\n\ngender_wage_gap.csv\nGender wage gap\n\n\nhispanic_white_wage_gap.csv\nHispanic-white wage gap\n\n\nhourly_wage_average.csv\nHourly wage, average\n\n\nhourly_wage_median.csv\nHourly wage, median\n\n\nhourly_wage_percentile_ratios.csv\nHourly wage percentile ratios\n\n\nhourly_wage_percentiles.csv\nHourly wage percentiles\n\n\ninflation_rates.csv\nInflation rates\n\n\nlabor_force_participation.csv\nLabor force participation\n\n\nlong_term_unemployment.csv\nLong-term unemployment\n\n\nmarket_poverty.csv\nMarket poverty\n\n\nminimum_wage.csv\nMinimum wage\n\n\npart_time.csv\nPart-time\n\n\npayroll_earnings_by_industry.csv\nPayroll earnings by industry\n\n\npayroll_employment_by_industry.csv\nPayroll employment by industry\n\n\nprice_indexes.csv\nPrice indexes\n\n\nproductivity_and_pay_indexes.csv\nProductivity and pay indexes\n\n\nproductivity_and_pay_levels.csv\nProductivity and pay levels\n\n\nsupplemental_poverty_measure.csv\nSupplemental poverty measure\n\n\nteacher_pay_gap.csv\nTeacher pay gap\n\n\ntime_at_work.csv\nTime at work\n\n\nunderemployment.csv\nUnderemployment\n\n\nunemployment.csv\nUnemployment\n\n\nunion_membership.csv\nUnion membership\n\n\nunion_wage_premium.csv\nUnion wage premium"
+    "text": "Data file contents\nepi_swa_data_library.zip is a zipped collection of .csv files, where each file is a particular “indicator” or outcome on the EPI State of Working America Data Library.\nThe current release of the data contains the following .csv files:\n\n\n\n\n\n\n\n\n\nFile name\nIndicator\n\n\n\n\nannual_wages_for_select_wage_groups.csv\nAnnual wages for select wage groups\n\n\nblack_white_wage_gap.csv\nBlack-White wage gap\n\n\nceo_pay_ratio.csv\nCEO pay ratio\n\n\ncivilian_population.csv\nCivilian population\n\n\ncollege_wage_premium.csv\nCollege wage premium\n\n\nemployment_by_demographics.csv\nEmployment by demographics\n\n\nemployment_by_industry.csv\nEmployment by industry\n\n\ngender_wage_gap.csv\nGender wage gap\n\n\nhispanic_white_wage_gap.csv\nHispanic-White wage gap\n\n\nhourly_earnings_by_industry.csv\nHourly earnings by industry\n\n\nhourly_wage_average.csv\nHourly wage, average\n\n\nhourly_wage_median.csv\nHourly wage, median\n\n\nhourly_wage_percentile_ratios.csv\nHourly wage percentile ratios\n\n\nhourly_wage_percentiles.csv\nHourly wage percentiles\n\n\ninflation_rates.csv\nInflation rates\n\n\nlabor_force_participation.csv\nLabor force participation\n\n\nlong_term_unemployment.csv\nLong-term unemployment\n\n\nmarket_poverty.csv\nMarket poverty\n\n\nminimum_wage.csv\nMinimum wage\n\n\npart_time_employment.csv\nPart-time employment\n\n\npart_time_for_economic_reasons.csv\nPart-time for economic reasons\n\n\nprice_indexes.csv\nPrice indexes\n\n\nproductivity_and_pay_indexes.csv\nProductivity and pay indexes\n\n\nproductivity_and_pay_levels.csv\nProductivity and pay levels\n\n\nsupplemental_poverty_measure.csv\nSupplemental poverty measure\n\n\nteacher_pay_gap.csv\nTeacher pay gap\n\n\ntime_at_work.csv\nTime at work\n\n\nunderemployment.csv\nUnderemployment\n\n\nunemployment.csv\nUnemployment\n\n\nunion_membership.csv\nUnion membership\n\n\nunion_wage_premium.csv\nUnion wage premium"
   },
   {
     "objectID": "index.html#file-contents",
@@ -39,14 +39,21 @@
     "href": "news.html",
     "title": "Changelog",
     "section": "",
-    "text": "Updated CEO pay with Bivens Gould Kandra 2023\nAdded undermployment indicator"
+    "text": "Added part-time for economic reasons indicator\nUpdated pay-productivity gap through 2024Q2\nSuppressed some wage percentile values due to small sample sizes"
+  },
+  {
+    "objectID": "news.html#version-0.11.0",
+    "href": "news.html#version-0.11.0",
+    "title": "Changelog",
+    "section": "",
+    "text": "Added part-time for economic reasons indicator\nUpdated pay-productivity gap through 2024Q2\nSuppressed some wage percentile values due to small sample sizes"
   },
   {
     "objectID": "news.html#version-0.10.0",
     "href": "news.html#version-0.10.0",
     "title": "Changelog",
-    "section": "",
-    "text": "Updated CEO pay with Bivens Gould Kandra 2023\nAdded undermployment indicator"
+    "section": "Version 0.10.0",
+    "text": "Version 0.10.0\n\nUpdated CEO pay with Bivens Gould Kandra 2023\nAdded underemployment indicator"
   },
   {
     "objectID": "news.html#version-0.9.0",

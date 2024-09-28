@@ -1,10 +1,14 @@
 ---
 title: Changelog
 ---
+## Version 0.11.0
+* Added part-time for economic reasons indicator
+* Updated pay-productivity gap through 2024Q2
+* Suppressed some wage percentile values due to small sample sizes
 
 ## Version 0.10.0
 * Updated CEO pay with [Bivens Gould Kandra 2023](https://www.epi.org/publication/ceo-pay-in-2023/)
-* Added undermployment indicator
+* Added underemployment indicator
 
 ## Version 0.9.0
 * Updated CPS ORG and Basic-based indicators through August 2024.
