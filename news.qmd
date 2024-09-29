@@ -1,6 +1,10 @@
 ---
 title: Changelog
 ---
+## Version 0.12.0
+* Added ACS market poverty indicator (and renamed market poverty with CPS market poverty)
+* Added multiple job holding indicator
+
 ## Version 0.11.0
 * Added part-time for economic reasons indicator
 * Updated pay-productivity gap through 2024Q2
