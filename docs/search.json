@@ -1,52 +1,24 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Download all the data",
-    "section": "",
-    "text": "This site provides all of the data underlying the EPI State of Working America Data Library. If you only need a small subset of data, it might be easiest to just use the EPI Data Library.\nBut if you want all of the data:"
-  },
-  {
-    "objectID": "index.html#downloads",
-    "href": "index.html#downloads",
-    "title": "Download all the data",
-    "section": "Downloads",
-    "text": "Downloads\nDownload .csv files of latest version of the data, Version 0.12.0: epi_swa_data_library.zip\nArchived versions of the data are here."
-  },
-  {
-    "objectID": "index.html#citation",
-    "href": "index.html#citation",
-    "title": "Download all the data",
-    "section": "Citation",
-    "text": "Citation\nIf you use the data, please cite it:\n\n\n\n\n\n\nSource\n\n\n\nEconomic Policy Institute. 2024. State of Working America Data Library, Version 0.12.0. https://data.epi.org."
-  },
-  {
-    "objectID": "index.html#data-file-contents",
-    "href": "index.html#data-file-contents",
-    "title": "Download all the data",
-    "section": "Data file contents",
-    "text": "Data file contents\nepi_swa_data_library.zip is a zipped collection of .csv files, where each file is a particular “indicator” or outcome on the EPI State of Working America Data Library.\nThe current release of the data contains the following .csv files:\n\n\n\n\n\n\n\n\n\nFile name\nIndicator\n\n\n\n\nannual_wages_for_select_wage_groups.csv\nAnnual wages for select wage groups\n\n\nblack_white_wage_gap.csv\nBlack-White wage gap\n\n\nceo_pay_ratio.csv\nCEO pay ratio\n\n\ncivilian_population.csv\nCivilian population\n\n\ncollege_wage_premium.csv\nCollege wage premium\n\n\nemployment_by_demographics.csv\nEmployment by demographics\n\n\nemployment_by_industry.csv\nEmployment by industry\n\n\ngender_wage_gap.csv\nGender wage gap\n\n\nhispanic_white_wage_gap.csv\nHispanic-White wage gap\n\n\nhourly_earnings_by_industry.csv\nHourly earnings by industry\n\n\nhourly_wage_average.csv\nHourly wage, average\n\n\nhourly_wage_median.csv\nHourly wage, median\n\n\nhourly_wage_percentile_ratios.csv\nHourly wage percentile ratios\n\n\nhourly_wage_percentiles.csv\nHourly wage percentiles\n\n\ninflation_rates.csv\nInflation rates\n\n\nlabor_force_participation.csv\nLabor force participation\n\n\nlong_term_unemployment.csv\nLong-term unemployment\n\n\nmarket_poverty.csv\nMarket poverty\n\n\nmarket_poverty_acs.csv\nMarket poverty (ACS)\n\n\nmarket_poverty_cps.csv\nMarket poverty (CPS)\n\n\nminimum_wage.csv\nMinimum wage\n\n\nmultiple_jobs.csv\nMultiple jobs\n\n\npart_time_employment.csv\nPart-time employment\n\n\npart_time_for_economic_reasons.csv\nPart-time for economic reasons\n\n\nprice_indexes.csv\nPrice indexes\n\n\nproductivity_and_pay_indexes.csv\nProductivity and pay indexes\n\n\nproductivity_and_pay_levels.csv\nProductivity and pay levels\n\n\nsupplemental_poverty_measure.csv\nSupplemental poverty measure\n\n\nteacher_pay_gap.csv\nTeacher pay gap\n\n\ntime_at_work.csv\nTime at work\n\n\nunderemployment.csv\nUnderemployment\n\n\nunemployment.csv\nUnemployment\n\n\nunion_membership.csv\nUnion membership\n\n\nunion_wage_premium.csv\nUnion wage premium"
-  },
-  {
-    "objectID": "index.html#file-contents",
-    "href": "index.html#file-contents",
-    "title": "Download all the data",
-    "section": "File contents",
-    "text": "File contents\nEach .csv file contains the following columns\n\n\n\n\n\n\n\n\n\nColumn name\nColumn description\n\n\n\n\ndata_version\nVersion of the data\n\n\nindicator\nIndicator\n\n\nmeasure\nOutcome measure\n\n\ndate_interval\nTime frequency of the data: ‘year’, ‘quarter’, or ‘month’\n\n\nyear\nYear\n\n\nquarter\nQuarter\n\n\nmonth\nMonth\n\n\ngeo_type\nGeography type: ‘national’, ‘state’, ‘division’, or ‘region’\n\n\ngeo_name\nGeography name\n\n\ngeo_code\nNumeric geographic identifier\n\n\ngroup\nGroup: e.g, ‘Gender’ or ‘Race/Ethnicity X Gender’\n\n\ngroup_value\nGroup value: e.g., ‘Female’ or ‘Hispanic X Female’\n\n\nvalue\nData value\n\n\n\n\n\nEach time series in the EPI Data Library is a unique combination of the columns indicator geo_name measure year month quarter group_value\nEach row of the data represents a value from a given time series."
-  },
-  {
     "objectID": "news.html",
     "href": "news.html",
     "title": "Changelog",
     "section": "",
-    "text": "Added ACS market poverty indicator (and renamed market poverty with CPS market poverty)\nAdded multiple job holding indicator"
+    "text": "Nearing soft launch release"
+  },
+  {
+    "objectID": "news.html#version-0.13.0",
+    "href": "news.html#version-0.13.0",
+    "title": "Changelog",
+    "section": "",
+    "text": "Nearing soft launch release"
   },
   {
     "objectID": "news.html#version-0.12.0",
     "href": "news.html#version-0.12.0",
     "title": "Changelog",
-    "section": "",
-    "text": "Added ACS market poverty indicator (and renamed market poverty with CPS market poverty)\nAdded multiple job holding indicator"
+    "section": "Version 0.12.0",
+    "text": "Version 0.12.0\n\nAdded ACS market poverty indicator (and renamed market poverty with CPS market poverty)\nAdded multiple job holding indicator"
   },
   {
     "objectID": "news.html#version-0.11.0",
@@ -68,5 +40,40 @@
     "title": "Changelog",
     "section": "Version 0.9.0",
     "text": "Version 0.9.0\n\nUpdated CPS ORG and Basic-based indicators through August 2024.\nUpdated teacher pay gap with Allegretto 2023."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Download all the data",
+    "section": "",
+    "text": "This site provides all of the data underlying the EPI State of Working America Data Library. If you only need a small subset of data, it might be easiest to just use the EPI Data Library.\nBut if you want all of the data:"
+  },
+  {
+    "objectID": "index.html#downloads",
+    "href": "index.html#downloads",
+    "title": "Download all the data",
+    "section": "Downloads",
+    "text": "Downloads\nDownload .csv files of latest version of the data, Version 0.13.0: epi_swa_data_library.zip\nArchived versions of the data are here."
+  },
+  {
+    "objectID": "index.html#citation",
+    "href": "index.html#citation",
+    "title": "Download all the data",
+    "section": "Citation",
+    "text": "Citation\nIf you use the data, please cite it:\n\n\n\n\n\n\nSource\n\n\n\nEconomic Policy Institute. 2024. State of Working America Data Library, Version 0.13.0. https://data.epi.org."
+  },
+  {
+    "objectID": "index.html#data-file-contents",
+    "href": "index.html#data-file-contents",
+    "title": "Download all the data",
+    "section": "Data file contents",
+    "text": "Data file contents\nepi_swa_data_library.zip is a zipped collection of .csv files, where each file is a particular “indicator” or outcome on the EPI State of Working America Data Library.\nThe current release of the data contains the following .csv files:\n\n\n\n\n\n\n\n\n\nFile name\nIndicator\n\n\n\n\nannual_wages_for_select_wage_groups.csv\nAnnual wages for select wage groups\n\n\nblack_white_wage_gap.csv\nBlack-White wage gap\n\n\nceo_pay_ratio.csv\nCEO pay ratio\n\n\ncivilian_population.csv\nCivilian population\n\n\ncollege_wage_premium.csv\nCollege wage premium\n\n\nemployment_by_demographics.csv\nEmployment by demographics\n\n\nemployment_by_industry_ces.csv\nEmployment by industry (CES)\n\n\ngender_wage_gap.csv\nGender wage gap\n\n\nhispanic_white_wage_gap.csv\nHispanic-White wage gap\n\n\nhourly_earnings_by_industry.csv\nHourly earnings by industry\n\n\nhourly_wage_average.csv\nHourly wage, average\n\n\nhourly_wage_median.csv\nHourly wage, median\n\n\nhourly_wage_percentile_ratios.csv\nHourly wage percentile ratios\n\n\nhourly_wage_percentiles.csv\nHourly wage percentiles\n\n\ninflation_rates.csv\nInflation rates\n\n\nlabor_force_participation.csv\nLabor force participation\n\n\nlong_term_unemployment.csv\nLong-term unemployment\n\n\nminimum_wage.csv\nMinimum wage\n\n\nmultiple_jobs.csv\nMultiple jobs\n\n\nofficial_poverty_acs.csv\nOfficial poverty (ACS)\n\n\nofficial_poverty_cps.csv\nOfficial poverty (CPS)\n\n\npart_time_employment.csv\nPart-time employment\n\n\npart_time_for_economic_reasons.csv\nPart-time for economic reasons\n\n\nprice_indexes.csv\nPrice indexes\n\n\nproductivity_and_pay_indexes.csv\nProductivity and pay indexes\n\n\nproductivity_and_pay_levels.csv\nProductivity and pay levels\n\n\nsupplemental_poverty.csv\nSupplemental poverty\n\n\nteacher_pay_gap.csv\nTeacher pay gap\n\n\ntime_at_work.csv\nTime at work\n\n\nunderemployment.csv\nUnderemployment\n\n\nunemployment.csv\nUnemployment\n\n\nunion_membership.csv\nUnion membership\n\n\nunion_wage_premium.csv\nUnion wage premium"
+  },
+  {
+    "objectID": "index.html#file-contents",
+    "href": "index.html#file-contents",
+    "title": "Download all the data",
+    "section": "File contents",
+    "text": "File contents\nEach .csv file contains the following columns\n\n\n\n\n\n\n\n\n\nColumn name\nColumn description\n\n\n\n\ndata_version\nVersion of the data\n\n\nindicator\nIndicator\n\n\nmeasure\nOutcome measure\n\n\ndate_interval\nTime frequency of the data: ‘year’, ‘quarter’, or ‘month’\n\n\nyear\nYear\n\n\nquarter\nQuarter\n\n\nmonth\nMonth\n\n\ngeo_type\nGeography type: ‘national’, ‘state’, ‘division’, or ‘region’\n\n\ngeo_name\nGeography name\n\n\ngeo_code\nNumeric geographic identifier\n\n\ngroup\nGroup: e.g, ‘Gender’ or ‘Race/Ethnicity X Gender’\n\n\ngroup_value\nGroup value: e.g., ‘Female’ or ‘Hispanic X Female’\n\n\nvalue\nData value\n\n\n\n\n\nEach time series in the EPI Data Library is a unique combination of the columns indicator geo_name measure year month quarter group_value\nEach row of the data represents a value from a given time series."
   }
 ]
