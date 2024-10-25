@@ -10,7 +10,7 @@ create_csv_release <- function(files, output_dir, data_version) {
 
 write_single_indicator_file <- function(input_file, output_dir, data_version) {
   data = read_parquet(input_file) |> 
-    mutate(data_version = data_version, .before = batch_id) |> 
+    mutate(data_version = as.character(data_version), .before = batch_id) |> 
     select(-batch_id) 
   
   indicator_name = data |> 

@@ -1,23 +1,5 @@
 ---
 title: Changelog
 ---
-## Version 0.13.0
-* Nearing soft launch release
-
-## Version 0.12.0
-* Added ACS market poverty indicator (and renamed market poverty with CPS market poverty)
-* Added multiple job holding indicator
-
-## Version 0.11.0
-* Added part-time for economic reasons indicator
-* Updated pay-productivity gap through 2024Q2
-* Suppressed some wage percentile values due to small sample sizes
-
-## Version 0.10.0
-* Updated CEO pay with [Bivens Gould Kandra 2023](https://www.epi.org/publication/ceo-pay-in-2023/)
-* Added underemployment indicator
-
-## Version 0.9.0
-* Updated CPS ORG and Basic-based indicators through August 2024.
-* Updated teacher pay gap with [Allegretto 2023](https://www.epi.org/publication/teacher-pay-in-2023/).
-
+## Version 0.0.9000
+* Preparing soft launch release
