@@ -1,5 +1,9 @@
 ---
 title: Changelog
 ---
+## Version 1.0.0
+* Full public release
+* Adds 2024 data for CPS based indicators
+
 ## Version 0.0.9000
 * Preparing soft launch release

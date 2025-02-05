@@ -1,12 +1,19 @@
 name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
-.Random.seed|object|25cbbf9eabdd7e31|||||||||||||||
 all_data|stem|71247c420a60ed06|41bbcd61edeb5530|7e872af5c9c4c477|215858948||t20022.0349878088s|8d59fea936b3da16|109760797|parquet|local|vector|||14.685||
 binary_release|stem|fc93e6aafc91c526|a39162cbe79c4e6d|123a2e4e1d429501|-454535524|release/epi_swa_data_library.zip|t20022.0354041021s|49466fb0e44b5507|180199320|file|local|vector|||35.925||
-create_binary_release|function|7cad560370e2b996|||||||||||||||
-create_csv_release|function|77d69b24ad3f9340|||||||||||||||
-csv_release_files|stem|845303c4be8409c0|0a43c95b506c3467|55dc601719ad9ce6|-1020294716|release/annual_wages_for_select_wage_groups.csv*release/ceo_pay_ratio.csv*release/black_white_wage_gap.csv*release/gender_wage_gap.csv*release/hispanic_white_wage_gap.csv*release/hourly_wage_average.csv*release/hourly_wage_median.csv*release/hourly_earnings_by_industry.csv*release/hourly_wage_percentile_ratios.csv*release/hourly_wage_percentiles.csv*release/college_wage_premium.csv*release/time_at_work.csv*release/employment_by_demographics.csv*release/labor_force_participation.csv*release/long_term_unemployment.csv*release/multiple_jobs.csv*release/employment_by_industry_ces.csv*release/part_time_employment.csv*release/part_time_for_economic_reasons.csv*release/underemployment.csv*release/unemployment.csv*release/minimum_wage.csv*release/civilian_population.csv*release/official_poverty_acs.csv*release/official_poverty_cps.csv*release/supplemental_poverty.csv*release/price_indexes.csv*release/inflation_rates.csv*release/productivity_and_pay_indexes.csv*release/productivity_and_pay_levels.csv*release/union_membership.csv*release/union_wage_premium.csv*release/teacher_pay_gap.csv|t20022.0346932276s|a3d867d4e53c121f|1973064953|file|local|vector|||16.869||
-dashboard_data_path|object|054d4944b26d72c1|||||||||||||||
-data_release_version|object|da9dffa0bd7d6402|||||||||||||||
-raw_release_files|object|456f009d85afb455|||||||||||||||
+csv_release_files|stem|845303c4be8409c0|0a43c95b506c3467|5ae455e788fd61f4|-1020294716|release/annual_wages_for_select_wage_groups.csv*release/ceo_pay_ratio.csv*release/black_white_wage_gap.csv*release/gender_wage_gap.csv*release/hispanic_white_wage_gap.csv*release/hourly_wage_average.csv*release/hourly_wage_median.csv*release/hourly_earnings_by_industry.csv*release/hourly_wage_percentile_ratios.csv*release/hourly_wage_percentiles.csv*release/college_wage_premium.csv*release/time_at_work.csv*release/employment_by_demographics.csv*release/labor_force_participation.csv*release/long_term_unemployment.csv*release/multiple_jobs.csv*release/employment_by_industry_ces.csv*release/part_time_employment.csv*release/part_time_for_economic_reasons.csv*release/underemployment.csv*release/unemployment.csv*release/minimum_wage.csv*release/civilian_population.csv*release/official_poverty_acs.csv*release/official_poverty_cps.csv*release/supplemental_poverty.csv*release/price_indexes.csv*release/inflation_rates.csv*release/productivity_and_pay_indexes.csv*release/productivity_and_pay_levels.csv*release/union_membership.csv*release/union_wage_premium.csv*release/teacher_pay_gap.csv|t20022.0346932276s||1973064953|file|local|vector|||0.388||ℹ In index 2.ℹ With name  projectszmokhiberdashboard_datadata_outputsreleaseannual_wage_ssa.parquet.Caused by error in pullCaused by error object indicator_name not found
 website|stem|67718b22e4f31583|7eb5ef48eb8211f7|6eed9b7f097d0e01|-385122080|docs*index.qmd*news.qmd*_quarto.yml*.nojekyll|t20022.0355392863s|59a8a4c1b3fcbb19|982226|file|local|vector|||11.633||
-write_single_indicator_file|function|b9bebcd4e628d4f3|||||||||||||||
+write_single_indicator_file|function|95ed0e44653c6914|||||||||||||||
+dashboard_data_path|object|a24695151dc00b36|||||||||||||||
+data_release_version|object|adea2c742c6cfbe5|||||||||||||||
+raw_release_files|object|c4783f8d5c74b0b8|||||||||||||||
+.Random.seed|object|bde79e83df9b3b0e|||||||||||||||
+create_binary_release|function|7cad560370e2b996|||||||||||||||
+create_csv_release|function|787ae4374cfd54d3|||||||||||||||
+write_single_indicator_file|function|95ed0e44653c6914
+dashboard_data_path|object|a24695151dc00b36
+data_release_version|object|adea2c742c6cfbe5
+raw_release_files|object|c4783f8d5c74b0b8
+.Random.seed|object|7c0e08292ac0dc2c
+create_binary_release|function|7cad560370e2b996
+create_csv_release|function|787ae4374cfd54d3
