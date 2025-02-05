@@ -10,6 +10,8 @@ website:
     left:
       - text: What's New
         href: news.qmd
+  google-analytics: 
+    tracking-id: "G-XE78VBJ0WK"
 
 format:
   html:
