@@ -4,14 +4,21 @@
     "href": "news.html",
     "title": "Changelog",
     "section": "",
-    "text": "Preparing soft launch release"
+    "text": "Full public release\nAdds 2024 data for CPS based indicators"
+  },
+  {
+    "objectID": "news.html#version-1.0.0",
+    "href": "news.html#version-1.0.0",
+    "title": "Changelog",
+    "section": "",
+    "text": "Full public release\nAdds 2024 data for CPS based indicators"
   },
   {
     "objectID": "news.html#version-0.0.9000",
     "href": "news.html#version-0.0.9000",
     "title": "Changelog",
-    "section": "",
-    "text": "Preparing soft launch release"
+    "section": "Version 0.0.9000",
+    "text": "Version 0.0.9000\n\nPreparing soft launch release"
   },
   {
     "objectID": "index.html",
@@ -25,14 +32,14 @@
     "href": "index.html#downloads",
     "title": "Download all the data",
     "section": "Downloads",
-    "text": "Downloads\nDownload .csv files of latest version of the data, Version 0.0.9001: epi_swa_data_library.zip\nArchived versions of the data are here."
+    "text": "Downloads\nDownload .csv files of latest version of the data, Version 1.0.0: epi_swa_data_library.zip\nArchived versions of the data are here."
   },
   {
     "objectID": "index.html#citation",
     "href": "index.html#citation",
     "title": "Download all the data",
     "section": "Citation",
-    "text": "Citation\nIf you use the data, please cite it:\n\n\n\n\n\n\nSource\n\n\n\nEconomic Policy Institute. 2024. State of Working America Data Library, Version 0.0.9001. https://data.epi.org."
+    "text": "Citation\nIf you use the data, please cite it:\n\n\n\n\n\n\nSource\n\n\n\nEconomic Policy Institute. 2025. State of Working America Data Library, Version 1.0.0. https://data.epi.org."
   },
   {
     "objectID": "index.html#data-file-contents",

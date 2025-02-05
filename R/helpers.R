@@ -15,7 +15,7 @@ write_single_indicator_file <- function(input_file, output_dir, data_version) {
   
   indicator_name = data |> 
     filter(row_number() == 1) |> 
-    pull(indicator) |> 
+    pull(starts_with("indicator")) |> 
     make_clean_names()
     
   output_file_name = paste0(indicator_name, ".csv")

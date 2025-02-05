@@ -38,7 +38,7 @@ If you use the data, please cite it:
 
 ::: {.callout-note}
 ## Source
-Economic Policy Institute. 2024. State of Working America Data Library, Version `r data_version`. <https://data.epi.org>.
+Economic Policy Institute. 2025. State of Working America Data Library, Version `r data_version`. <https://data.epi.org>.
 :::
 
 ## Data file contents
