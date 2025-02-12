@@ -1,6 +1,9 @@
 ---
 title: Changelog
 ---
+## Version 1.0.1
+* Fix college wage premium indicator, previously was showing up as a negative value
+
 ## Version 1.0.0
 * Full public release
 * Adds 2024 data for CPS based indicators
