@@ -1,6 +1,11 @@
 ---
 title: Changelog
 ---
+## Version 1.0.2
+* Adds data for January and February 2025 for monthly measures in CPS based indicators where available
+* Changes methodology for calculating wage percentiles and median wages, now using a [smoothed quantile](https://economic.github.io/epidatatools/reference/averaged_quantile.html) method
+* Suppresses wage percentile values if the share of topcoded individuals near a given percentile value is higher than a 10% threshold. See [here](https://www.epi.org/blog/stagnant-topcode-thresholds-threaten-data-reliability-for-the-highest-earners-and-make-inequality-difficult-to-accurately-measure/), and [here](https://microdata.epi.org/methodology/wagevariables/#top-code-adjustments) for more details. 
+
 ## Version 1.0.1
 * Fix college wage premium indicator, previously was showing up as a negative value
 
