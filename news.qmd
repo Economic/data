@@ -1,6 +1,13 @@
 ---
 title: Changelog
 ---
+## Version 2025.4.16
+* Include two new indicators, Working age population, and Economically insecure population
+* META: Change versioning convention from semantic versioning to calendar versioning
+* Add data for March 2025 for monthly measures in CPS based indicators
+* Update productivity Pay data through 2024Q4 (see https://www.epi.org/productivity-pay-gap/ for more)
+* Added more focus options for wage and employment indicators (gender by education, education by age group, and age group by gender)
+
 ## Version 1.0.2
 * Adds data for January and February 2025 for monthly measures in CPS based indicators where available
 * Changes methodology for calculating wage percentiles and median wages, now using a [smoothed quantile](https://economic.github.io/epidatatools/reference/averaged_quantile.html) method
