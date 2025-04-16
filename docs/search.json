@@ -4,14 +4,21 @@
     "href": "news.html",
     "title": "Changelog",
     "section": "",
-    "text": "Adds data for January and February 2025 for monthly measures in CPS based indicators where available\nChanges methodology for calculating wage percentiles and median wages, now using a smoothed quantile method\nSuppresses wage percentile values if the share of topcoded individuals near a given percentile value is higher than a 10% threshold. See here, and here for more details."
+    "text": "Include two new indicators, Working age population, and Economically insecure population\nMETA: Change versioning convention from semantic versioning to calendar versioning\nAdd data for March 2025 for monthly measures in CPS based indicators\nUpdate productivity Pay data through 2024Q4 (see https://www.epi.org/productivity-pay-gap/ for more)\nAdded more focus options for wage and employment indicators (gender by education, education by age group, and age group by gender)"
+  },
+  {
+    "objectID": "news.html#version-2025.4.16",
+    "href": "news.html#version-2025.4.16",
+    "title": "Changelog",
+    "section": "",
+    "text": "Include two new indicators, Working age population, and Economically insecure population\nMETA: Change versioning convention from semantic versioning to calendar versioning\nAdd data for March 2025 for monthly measures in CPS based indicators\nUpdate productivity Pay data through 2024Q4 (see https://www.epi.org/productivity-pay-gap/ for more)\nAdded more focus options for wage and employment indicators (gender by education, education by age group, and age group by gender)"
   },
   {
     "objectID": "news.html#version-1.0.2",
     "href": "news.html#version-1.0.2",
     "title": "Changelog",
-    "section": "",
-    "text": "Adds data for January and February 2025 for monthly measures in CPS based indicators where available\nChanges methodology for calculating wage percentiles and median wages, now using a smoothed quantile method\nSuppresses wage percentile values if the share of topcoded individuals near a given percentile value is higher than a 10% threshold. See here, and here for more details."
+    "section": "Version 1.0.2",
+    "text": "Version 1.0.2\n\nAdds data for January and February 2025 for monthly measures in CPS based indicators where available\nChanges methodology for calculating wage percentiles and median wages, now using a smoothed quantile method\nSuppresses wage percentile values if the share of topcoded individuals near a given percentile value is higher than a 10% threshold. See here, and here for more details."
   },
   {
     "objectID": "news.html#version-1.0.1",
@@ -46,21 +53,21 @@
     "href": "index.html#downloads",
     "title": "Download all the data",
     "section": "Downloads",
-    "text": "Downloads\nDownload .csv files of latest version of the data, Version 1.0.2: epi_swa_data_library.zip\nArchived versions of the data are here."
+    "text": "Downloads\nDownload .csv files of latest version of the data, Version 2025.4.16: epi_swa_data_library.zip\nArchived versions of the data are here."
   },
   {
     "objectID": "index.html#citation",
     "href": "index.html#citation",
     "title": "Download all the data",
     "section": "Citation",
-    "text": "Citation\nIf you use the data, please cite it:\n\n\n\n\n\n\nSource\n\n\n\nEconomic Policy Institute. 2025. State of Working America Data Library, Version 1.0.2. https://data.epi.org."
+    "text": "Citation\nIf you use the data, please cite it:\n\n\n\n\n\n\nSource\n\n\n\nEconomic Policy Institute. 2025. State of Working America Data Library, Version 2025.4.16. https://data.epi.org."
   },
   {
     "objectID": "index.html#data-file-contents",
     "href": "index.html#data-file-contents",
     "title": "Download all the data",
     "section": "Data file contents",
-    "text": "Data file contents\nepi_swa_data_library.zip is a zipped collection of .csv files, where each file is a particular “indicator” or outcome on the EPI State of Working America Data Library.\nThe current release of the data contains the following .csv files:\n\n\n\n\n\n\n\n\n\nFile name\nIndicator\n\n\n\n\nannual_wages_for_select_wage_groups.csv\nAnnual wages for select wage groups\n\n\nblack_white_wage_gap.csv\nBlack-white wage gap\n\n\nceo_pay_ratio.csv\nCEO pay ratio\n\n\ncivilian_population.csv\nCivilian population\n\n\ncollege_wage_premium.csv\nCollege wage premium\n\n\nemployment_by_demographics.csv\nEmployment by demographics\n\n\nemployment_by_industry_ces.csv\nEmployment by industry (CES)\n\n\ngender_wage_gap.csv\nGender wage gap\n\n\nhispanic_white_wage_gap.csv\nHispanic-white wage gap\n\n\nhistorical_union_membership.csv\nHistorical union membership\n\n\nhourly_earnings_by_industry.csv\nHourly earnings by industry\n\n\nhourly_wage_average.csv\nHourly wage, average\n\n\nhourly_wage_median.csv\nHourly wage, median\n\n\nhourly_wage_percentile_ratios.csv\nHourly wage percentile ratios\n\n\nhourly_wage_percentiles.csv\nHourly wage percentiles\n\n\ninflation_rates.csv\nInflation rates\n\n\nlabor_force_participation.csv\nLabor force participation\n\n\nlong_term_unemployment.csv\nLong-term unemployment\n\n\nminimum_wage.csv\nMinimum wage\n\n\nmultiple_jobs.csv\nMultiple jobs\n\n\nofficial_poverty_acs.csv\nOfficial poverty (ACS)\n\n\nofficial_poverty_cps.csv\nOfficial poverty (CPS)\n\n\npart_time_employment.csv\nPart-time employment\n\n\npart_time_for_economic_reasons.csv\nPart-time for economic reasons\n\n\nprice_indexes.csv\nPrice indexes\n\n\nproductivity_and_pay_indexes.csv\nProductivity and pay indexes\n\n\nproductivity_and_pay_levels.csv\nProductivity and pay levels\n\n\nsupplemental_poverty.csv\nSupplemental poverty\n\n\nteacher_pay_gap.csv\nTeacher pay gap\n\n\ntime_at_work.csv\nTime at work\n\n\nunderemployment.csv\nUnderemployment\n\n\nunemployment.csv\nUnemployment\n\n\nunion_membership.csv\nUnion membership\n\n\nunion_wage_premium.csv\nUnion wage premium"
+    "text": "Data file contents\nepi_swa_data_library.zip is a zipped collection of .csv files, where each file is a particular “indicator” or outcome on the EPI State of Working America Data Library.\nThe current release of the data contains the following .csv files:\n\n\n\n\n\n\n\n\n\nFile name\nIndicator\n\n\n\n\nannual_wages_for_select_wage_groups.csv\nAnnual wages for select wage groups\n\n\nblack_white_wage_gap.csv\nBlack-white wage gap\n\n\nceo_pay_ratio.csv\nCEO pay ratio\n\n\ncivilian_population.csv\nCivilian population\n\n\ncollege_wage_premium.csv\nCollege wage premium\n\n\neconomically_insecure_population.csv\nEconomically insecure population\n\n\nemployment_by_demographics.csv\nEmployment by demographics\n\n\nemployment_by_industry_ces.csv\nEmployment by industry (CES)\n\n\ngender_wage_gap.csv\nGender wage gap\n\n\nhispanic_white_wage_gap.csv\nHispanic-white wage gap\n\n\nhistorical_union_membership.csv\nHistorical union membership\n\n\nhourly_earnings_by_industry.csv\nHourly earnings by industry\n\n\nhourly_wage_average.csv\nHourly wage, average\n\n\nhourly_wage_median.csv\nHourly wage, median\n\n\nhourly_wage_percentile_ratios.csv\nHourly wage percentile ratios\n\n\nhourly_wage_percentiles.csv\nHourly wage percentiles\n\n\ninflation_rates.csv\nInflation rates\n\n\nlabor_force_participation.csv\nLabor force participation\n\n\nlong_term_unemployment.csv\nLong-term unemployment\n\n\nminimum_wage.csv\nMinimum wage\n\n\nmultiple_jobs.csv\nMultiple jobs\n\n\nofficial_poverty_acs.csv\nOfficial poverty (ACS)\n\n\nofficial_poverty_cps.csv\nOfficial poverty (CPS)\n\n\npart_time_employment.csv\nPart-time employment\n\n\npart_time_for_economic_reasons.csv\nPart-time for economic reasons\n\n\nprice_indexes.csv\nPrice indexes\n\n\nproductivity_and_pay_indexes.csv\nProductivity and pay indexes\n\n\nproductivity_and_pay_levels.csv\nProductivity and pay levels\n\n\nsupplemental_poverty.csv\nSupplemental poverty\n\n\nteacher_pay_gap.csv\nTeacher pay gap\n\n\ntime_at_work.csv\nTime at work\n\n\nunderemployment.csv\nUnderemployment\n\n\nunemployment.csv\nUnemployment\n\n\nunion_membership.csv\nUnion membership\n\n\nunion_wage_premium.csv\nUnion wage premium\n\n\nworking_age_population.csv\nWorking age population"
   },
   {
     "objectID": "index.html#file-contents",
