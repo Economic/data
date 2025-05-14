@@ -1,6 +1,11 @@
 ---
 title: Changelog
 ---
+
+## Version 2025.5.14
+*Add April 2025 data for monthly measures in CPS based indicators
+*Add April 2025 data for real monthly minimum wage data, with April 2025 CPI update
+
 ## Version 2025.4.16
 * Include two new indicators, Working age population, and Economically insecure population
 * META: Change versioning convention from semantic versioning to calendar versioning
