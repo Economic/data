@@ -4,14 +4,21 @@
     "href": "news.html",
     "title": "Changelog",
     "section": "",
-    "text": "Include two new indicators, Working age population, and Economically insecure population\nMETA: Change versioning convention from semantic versioning to calendar versioning\nAdd data for March 2025 for monthly measures in CPS based indicators\nUpdate productivity Pay data through 2024Q4 (see https://www.epi.org/productivity-pay-gap/ for more)\nAdded more focus options for wage and employment indicators (gender by education, education by age group, and age group by gender)"
+    "text": "Add April 2025 data for monthly measures in CPS based indicators Add April 2025 data for real monthly minimum wage data, with April 2025 CPI update"
+  },
+  {
+    "objectID": "news.html#version-2025.5.14",
+    "href": "news.html#version-2025.5.14",
+    "title": "Changelog",
+    "section": "",
+    "text": "Add April 2025 data for monthly measures in CPS based indicators Add April 2025 data for real monthly minimum wage data, with April 2025 CPI update"
   },
   {
     "objectID": "news.html#version-2025.4.16",
     "href": "news.html#version-2025.4.16",
     "title": "Changelog",
-    "section": "",
-    "text": "Include two new indicators, Working age population, and Economically insecure population\nMETA: Change versioning convention from semantic versioning to calendar versioning\nAdd data for March 2025 for monthly measures in CPS based indicators\nUpdate productivity Pay data through 2024Q4 (see https://www.epi.org/productivity-pay-gap/ for more)\nAdded more focus options for wage and employment indicators (gender by education, education by age group, and age group by gender)"
+    "section": "Version 2025.4.16",
+    "text": "Version 2025.4.16\n\nInclude two new indicators, Working age population, and Economically insecure population\nMETA: Change versioning convention from semantic versioning to calendar versioning\nAdd data for March 2025 for monthly measures in CPS based indicators\nUpdate productivity Pay data through 2024Q4 (see https://www.epi.org/productivity-pay-gap/ for more)\nAdded more focus options for wage and employment indicators (gender by education, education by age group, and age group by gender)"
   },
   {
     "objectID": "news.html#version-1.0.2",
@@ -53,14 +60,14 @@
     "href": "index.html#downloads",
     "title": "Download all the data",
     "section": "Downloads",
-    "text": "Downloads\nDownload .csv files of latest version of the data, Version 2025.4.16: epi_swa_data_library.zip\nArchived versions of the data are here."
+    "text": "Downloads\nDownload .csv files of latest version of the data, Version 2025.5.14: epi_swa_data_library.zip\nArchived versions of the data are here."
   },
   {
     "objectID": "index.html#citation",
     "href": "index.html#citation",
     "title": "Download all the data",
     "section": "Citation",
-    "text": "Citation\nIf you use the data, please cite it:\n\n\n\n\n\n\nSource\n\n\n\nEconomic Policy Institute. 2025. State of Working America Data Library, Version 2025.4.16. https://data.epi.org."
+    "text": "Citation\nIf you use the data, please cite it:\n\n\n\n\n\n\nSource\n\n\n\nEconomic Policy Institute. 2025. State of Working America Data Library, Version 2025.5.14. https://data.epi.org."
   },
   {
     "objectID": "index.html#data-file-contents",
