@@ -2,6 +2,10 @@
 title: Changelog
 ---
 
+## Version 2025.5.23
+* Add 2025Q1 productivity/pay quarterly data
+* Add race X education and race X age group dimensions for wage values in average wages, median wages, and wage percentiles 
+
 ## Version 2025.5.14
 * Add April 2025 data for monthly measures in CPS based indicators
 * Add April 2025 data for real monthly minimum wage data with April 2025 CPI update

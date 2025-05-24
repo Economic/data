@@ -3,7 +3,7 @@ source("./packages.R")
 
 ## Update these for a new doc push and release
 ### Data release version
-data_release_version = "2025.5.14"
+data_release_version = "2025.5.23"
 
 # Dashboard data location
 dashboard_data_path = Sys.getenv("DASHBOARD_DATA_DIR")
