@@ -1,6 +1,8 @@
 ---
 title: Changelog
 ---
+## Version 2025.6.18
+* Add May 2025 data for monthly measures in CPS based indicators and real monthly minimum wage data
 
 ## Version 2025.5.23
 * Add 2025Q1 productivity/pay quarterly data
