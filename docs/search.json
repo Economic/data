@@ -4,14 +4,21 @@
     "href": "news.html",
     "title": "Changelog",
     "section": "",
-    "text": "Add 2025Q1 productivity/pay quarterly data\nAdd race X education and race X age group dimensions for wage values in average wages, median wages, and wage percentiles"
+    "text": "Add May 2025 data for monthly measures in CPS based indicators and real monthly minimum wage data"
+  },
+  {
+    "objectID": "news.html#version-2025.6.18",
+    "href": "news.html#version-2025.6.18",
+    "title": "Changelog",
+    "section": "",
+    "text": "Add May 2025 data for monthly measures in CPS based indicators and real monthly minimum wage data"
   },
   {
     "objectID": "news.html#version-2025.5.23",
     "href": "news.html#version-2025.5.23",
     "title": "Changelog",
-    "section": "",
-    "text": "Add 2025Q1 productivity/pay quarterly data\nAdd race X education and race X age group dimensions for wage values in average wages, median wages, and wage percentiles"
+    "section": "Version 2025.5.23",
+    "text": "Version 2025.5.23\n\nAdd 2025Q1 productivity/pay quarterly data\nAdd race X education and race X age group dimensions for wage values in average wages, median wages, and wage percentiles"
   },
   {
     "objectID": "news.html#version-2025.5.14",
