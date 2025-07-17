@@ -4,14 +4,21 @@
     "href": "news.html",
     "title": "Changelog",
     "section": "",
-    "text": "Add May 2025 data for monthly measures in CPS based indicators and real monthly minimum wage data"
+    "text": "Add June 2025 data monthly measures in CPS based indicators and real monthly minimum wage data"
+  },
+  {
+    "objectID": "news.html#version-2025.7.17",
+    "href": "news.html#version-2025.7.17",
+    "title": "Changelog",
+    "section": "",
+    "text": "Add June 2025 data monthly measures in CPS based indicators and real monthly minimum wage data"
   },
   {
     "objectID": "news.html#version-2025.6.18",
     "href": "news.html#version-2025.6.18",
     "title": "Changelog",
-    "section": "",
-    "text": "Add May 2025 data for monthly measures in CPS based indicators and real monthly minimum wage data"
+    "section": "Version 2025.6.18",
+    "text": "Version 2025.6.18\n\nAdd May 2025 data for monthly measures in CPS based indicators and real monthly minimum wage data"
   },
   {
     "objectID": "news.html#version-2025.5.23",
@@ -74,14 +81,14 @@
     "href": "index.html#downloads",
     "title": "Download all the data",
     "section": "Downloads",
-    "text": "Downloads\nDownload .csv files of latest version of the data, Version 2025.6.18: epi_swa_data_library.zip\nArchived versions of the data are here."
+    "text": "Downloads\nDownload .csv files of latest version of the data, Version 2025.7.17: epi_swa_data_library.zip\nArchived versions of the data are here."
   },
   {
     "objectID": "index.html#citation",
     "href": "index.html#citation",
     "title": "Download all the data",
     "section": "Citation",
-    "text": "Citation\nIf you use the data, please cite it:\n\n\n\n\n\n\nSource\n\n\n\nEconomic Policy Institute. 2025. State of Working America Data Library, Version 2025.6.18. https://data.epi.org."
+    "text": "Citation\nIf you use the data, please cite it:\n\n\n\n\n\n\nSource\n\n\n\nEconomic Policy Institute. 2025. State of Working America Data Library, Version 2025.7.17. https://data.epi.org."
   },
   {
     "objectID": "index.html#data-file-contents",

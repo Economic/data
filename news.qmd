@@ -1,6 +1,9 @@
 ---
 title: Changelog
 ---
+## Version 2025.7.17
+* Add June 2025 data monthly measures in CPS based indicators and real monthly minimum wage data
+
 ## Version 2025.6.18
 * Add May 2025 data for monthly measures in CPS based indicators and real monthly minimum wage data
 
