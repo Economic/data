@@ -2,6 +2,10 @@
 title: Changelog
 ---
 
+## Version 2025.11.13
+* Update productivity pay quarterly measures to include 2025 Q2 data
+* Update CEO pay data to include 2024 data
+
 ## Version 2025.9.15
 * Add August 2025 data monthly measures in CPS based indicators and real monthly minimum wage data
 
