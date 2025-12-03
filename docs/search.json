@@ -4,14 +4,21 @@
     "href": "news.html",
     "title": "Changelog",
     "section": "",
-    "text": "Update productivity pay quarterly measures to include 2025 Q2 data\nUpdate CEO pay data to include 2024 data"
+    "text": "Add September 2025 monthly measures for CPS basic monthly indicators and CPI adjusted indicators"
+  },
+  {
+    "objectID": "news.html#version-2025.11.26",
+    "href": "news.html#version-2025.11.26",
+    "title": "Changelog",
+    "section": "",
+    "text": "Add September 2025 monthly measures for CPS basic monthly indicators and CPI adjusted indicators"
   },
   {
     "objectID": "news.html#version-2025.11.13",
     "href": "news.html#version-2025.11.13",
     "title": "Changelog",
-    "section": "",
-    "text": "Update productivity pay quarterly measures to include 2025 Q2 data\nUpdate CEO pay data to include 2024 data"
+    "section": "Version 2025.11.13",
+    "text": "Version 2025.11.13\n\nUpdate productivity pay quarterly measures to include 2025 Q2 data\nUpdate CEO pay data to include 2024 data"
   },
   {
     "objectID": "news.html#version-2025.9.15",
@@ -102,14 +109,14 @@
     "href": "index.html#downloads",
     "title": "Download all the data",
     "section": "Downloads",
-    "text": "Downloads\nDownload .csv files of latest version of the data, Version 2025.11.13: epi_swa_data_library.zip\nArchived versions of the data are here."
+    "text": "Downloads\nDownload .csv files of latest version of the data, Version 2025.11.26: epi_swa_data_library.zip\nArchived versions of the data are here."
   },
   {
     "objectID": "index.html#citation",
     "href": "index.html#citation",
     "title": "Download all the data",
     "section": "Citation",
-    "text": "Citation\nIf you use the data, please cite it:\n\n\n\n\n\n\nSource\n\n\n\nEconomic Policy Institute. 2025. State of Working America Data Library, Version 2025.11.13. https://data.epi.org."
+    "text": "Citation\nIf you use the data, please cite it:\n\n\n\n\n\n\nSource\n\n\n\nEconomic Policy Institute. 2025. State of Working America Data Library, Version 2025.11.26. https://data.epi.org."
   },
   {
     "objectID": "index.html#data-file-contents",

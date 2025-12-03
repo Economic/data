@@ -1,6 +1,8 @@
 ---
 title: Changelog
 ---
+## Version 2025.11.26
+* Add September 2025 monthly measures for CPS basic monthly indicators and CPI adjusted indicators 
 
 ## Version 2025.11.13
 * Update productivity pay quarterly measures to include 2025 Q2 data
