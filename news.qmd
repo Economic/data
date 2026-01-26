@@ -1,6 +1,13 @@
 ---
 title: Changelog
 ---
+## Version 2026.1.23
+* Add December 2025 monthly measures for CPS basic monthly indicators and CPI adjusted indicators 
+    - Note: Due to the 2025 U.S federal government shutdown, October CPS data was not collected
+* Update annual measures to 2025 for wages, employment, unions, wage gaps, and population indicators
+* Add 2024 data for poverty indicators 
+* Update productivity pay quarterly measures to include 2025 Q3 data
+
 ## Version 2025.11.26
 * Add September 2025 monthly measures for CPS basic monthly indicators and CPI adjusted indicators 
 
