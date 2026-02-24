@@ -4,14 +4,21 @@
     "href": "news.html",
     "title": "Changelog",
     "section": "",
-    "text": "Add December 2025 monthly measures for CPS basic monthly indicators and CPI adjusted indicators\n\nNote: Due to the 2025 U.S federal government shutdown, October CPS data was not collected\n\nUpdate annual measures to 2025 for wages, employment, unions, wage gaps, and population indicators\nAdd 2024 data for poverty indicators\nUpdate productivity pay quarterly measures to include 2025 Q3 data"
+    "text": "Add January 2026 monthly measures for CPS basic monthly indicators and CPI adjusted indicators\nNote: January CES employment numbers by state are not currently available, and will not be released by BLS until April 2026"
+  },
+  {
+    "objectID": "news.html#version-2026.2.23",
+    "href": "news.html#version-2026.2.23",
+    "title": "Changelog",
+    "section": "",
+    "text": "Add January 2026 monthly measures for CPS basic monthly indicators and CPI adjusted indicators\nNote: January CES employment numbers by state are not currently available, and will not be released by BLS until April 2026"
   },
   {
     "objectID": "news.html#version-2026.1.23",
     "href": "news.html#version-2026.1.23",
     "title": "Changelog",
-    "section": "",
-    "text": "Add December 2025 monthly measures for CPS basic monthly indicators and CPI adjusted indicators\n\nNote: Due to the 2025 U.S federal government shutdown, October CPS data was not collected\n\nUpdate annual measures to 2025 for wages, employment, unions, wage gaps, and population indicators\nAdd 2024 data for poverty indicators\nUpdate productivity pay quarterly measures to include 2025 Q3 data"
+    "section": "Version 2026.1.23",
+    "text": "Version 2026.1.23\n\nAdd December 2025 monthly measures for CPS basic monthly indicators and CPI adjusted indicators\n\nNote: Due to the 2025 U.S federal government shutdown, October CPS data was not collected\n\nUpdate annual measures to 2025 for wages, employment, unions, wage gaps, and population indicators\nAdd 2024 data for poverty indicators\nUpdate productivity pay quarterly measures to include 2025 Q3 data"
   },
   {
     "objectID": "news.html#version-2025.11.26",
@@ -116,14 +123,14 @@
     "href": "index.html#downloads",
     "title": "Download all the data",
     "section": "Downloads",
-    "text": "Downloads\nDownload .csv files of latest version of the data, Version 2026.1.23: epi_swa_data_library.zip\nArchived versions of the data are here."
+    "text": "Downloads\nDownload .csv files of latest version of the data, Version 2026.2.23: epi_swa_data_library.zip\nArchived versions of the data are here."
   },
   {
     "objectID": "index.html#citation",
     "href": "index.html#citation",
     "title": "Download all the data",
     "section": "Citation",
-    "text": "Citation\nIf you use the data, please cite it:\n\n\n\n\n\n\nSource\n\n\n\nEconomic Policy Institute. 2025. State of Working America Data Library, Version 2026.1.23. https://data.epi.org."
+    "text": "Citation\nIf you use the data, please cite it:\n\n\n\n\n\n\nSource\n\n\n\nEconomic Policy Institute. 2025. State of Working America Data Library, Version 2026.2.23. https://data.epi.org."
   },
   {
     "objectID": "index.html#data-file-contents",

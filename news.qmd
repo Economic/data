@@ -1,6 +1,11 @@
 ---
 title: Changelog
 ---
+
+## Version 2026.2.23
+* Add January 2026 monthly measures for CPS basic monthly indicators and CPI adjusted indicators
+* Note: January CES employment numbers by state are not currently available, and will not be released by BLS until April 2026
+
 ## Version 2026.1.23
 * Add December 2025 monthly measures for CPS basic monthly indicators and CPI adjusted indicators 
     - Note: Due to the 2025 U.S federal government shutdown, October CPS data was not collected
