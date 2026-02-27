@@ -4,14 +4,21 @@
     "href": "news.html",
     "title": "Changelog",
     "section": "",
-    "text": "Add January 2026 monthly measures for CPS basic monthly indicators and CPI adjusted indicators\nNote: January CES employment numbers by state are not currently available, and will not be released by BLS until April 2026"
+    "text": "Fix union membership and representation levels. Prior version miscalculated the number of smoothing monthly union members in 2025."
+  },
+  {
+    "objectID": "news.html#version-2026.2.27",
+    "href": "news.html#version-2026.2.27",
+    "title": "Changelog",
+    "section": "",
+    "text": "Fix union membership and representation levels. Prior version miscalculated the number of smoothing monthly union members in 2025."
   },
   {
     "objectID": "news.html#version-2026.2.23",
     "href": "news.html#version-2026.2.23",
     "title": "Changelog",
-    "section": "",
-    "text": "Add January 2026 monthly measures for CPS basic monthly indicators and CPI adjusted indicators\nNote: January CES employment numbers by state are not currently available, and will not be released by BLS until April 2026"
+    "section": "Version 2026.2.23",
+    "text": "Version 2026.2.23\n\nAdd January 2026 monthly measures for CPS basic monthly indicators and CPI adjusted indicators\nNote: January CES employment numbers by state are not currently available, and will not be released by BLS until April 2026"
   },
   {
     "objectID": "news.html#version-2026.1.23",
@@ -123,14 +130,14 @@
     "href": "index.html#downloads",
     "title": "Download all the data",
     "section": "Downloads",
-    "text": "Downloads\nDownload .csv files of latest version of the data, Version 2026.2.23: epi_swa_data_library.zip\nArchived versions of the data are here."
+    "text": "Downloads\nDownload .csv files of latest version of the data, Version 2026.2.27: epi_swa_data_library.zip\nArchived versions of the data are here."
   },
   {
     "objectID": "index.html#citation",
     "href": "index.html#citation",
     "title": "Download all the data",
     "section": "Citation",
-    "text": "Citation\nIf you use the data, please cite it:\n\n\n\n\n\n\nSource\n\n\n\nEconomic Policy Institute. 2025. State of Working America Data Library, Version 2026.2.23. https://data.epi.org."
+    "text": "Citation\nIf you use the data, please cite it:\n\n\n\n\n\n\nSource\n\n\n\nEconomic Policy Institute. 2025. State of Working America Data Library, Version 2026.2.27. https://data.epi.org."
   },
   {
     "objectID": "index.html#data-file-contents",

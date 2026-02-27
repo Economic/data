@@ -2,6 +2,9 @@
 title: Changelog
 ---
 
+## Version 2026.2.27
+* Fix union membership and representation levels. Prior version miscalculated the number of smoothing monthly union members in 2025. 
+
 ## Version 2026.2.23
 * Add January 2026 monthly measures for CPS basic monthly indicators and CPI adjusted indicators
 * Note: January CES employment numbers by state are not currently available, and will not be released by BLS until April 2026
