@@ -2,6 +2,11 @@
 title: Changelog
 ---
 
+## Version 2026.3.19
+* Add January February monthly measures for CPS basic monthly indicators and CPI adjusted indicators
+* Note January 2026 CPS basic monthly data was re-released by Census to reflect 2026 population controls, that were initially delayed. As a result, indicators based on the monthly CPS for January 2026 from this version will not match the prior version.
+
+
 ## Version 2026.2.27
 * Fix union membership and representation levels. Prior version miscalculated the number of smoothing monthly union members in 2025. 
 
