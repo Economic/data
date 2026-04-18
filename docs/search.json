@@ -4,14 +4,21 @@
     "href": "news.html",
     "title": "Changelog",
     "section": "",
-    "text": "Add January February monthly measures for CPS basic monthly indicators and CPI adjusted indicators\nNote January 2026 CPS basic monthly data was re-released by Census to reflect 2026 population controls, that were initially delayed. As a result, indicators based on the monthly CPS for January 2026 from this version will not match the prior version."
+    "text": "Add March monthly measures for CPS basic monthly indicators and CPI adjusted indicators"
+  },
+  {
+    "objectID": "news.html#version-2026.4.17",
+    "href": "news.html#version-2026.4.17",
+    "title": "Changelog",
+    "section": "",
+    "text": "Add March monthly measures for CPS basic monthly indicators and CPI adjusted indicators"
   },
   {
     "objectID": "news.html#version-2026.3.19",
     "href": "news.html#version-2026.3.19",
     "title": "Changelog",
-    "section": "",
-    "text": "Add January February monthly measures for CPS basic monthly indicators and CPI adjusted indicators\nNote January 2026 CPS basic monthly data was re-released by Census to reflect 2026 population controls, that were initially delayed. As a result, indicators based on the monthly CPS for January 2026 from this version will not match the prior version."
+    "section": "Version 2026.3.19",
+    "text": "Version 2026.3.19\n\nAdd February monthly measures for CPS basic monthly indicators and CPI adjusted indicators\nAdd income topic with household income from published ACS tables by state\nNote January 2026 CPS basic monthly data was re-released by Census to reflect 2026 population controls, that were initially delayed. As a result, indicators based on the monthly CPS for January 2026 from this version will not match the prior version."
   },
   {
     "objectID": "news.html#version-2026.2.27",
@@ -137,14 +144,14 @@
     "href": "index.html#downloads",
     "title": "Download all the data",
     "section": "Downloads",
-    "text": "Downloads\nDownload .csv files of latest version of the data, Version 2026.3.19: epi_swa_data_library.zip\nArchived versions of the data are here."
+    "text": "Downloads\nDownload .csv files of latest version of the data, Version 2026.4.17: epi_swa_data_library.zip\nArchived versions of the data are here."
   },
   {
     "objectID": "index.html#citation",
     "href": "index.html#citation",
     "title": "Download all the data",
     "section": "Citation",
-    "text": "Citation\nIf you use the data, please cite it:\n\n\n\n\n\n\nSource\n\n\n\nEconomic Policy Institute. 2025. State of Working America Data Library, Version 2026.3.19. https://data.epi.org."
+    "text": "Citation\nIf you use the data, please cite it:\n\n\n\n\n\n\nSource\n\n\n\nEconomic Policy Institute. 2026. State of Working America Data Library, Version 2026.4.17. https://data.epi.org."
   },
   {
     "objectID": "index.html#data-file-contents",

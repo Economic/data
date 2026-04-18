@@ -1,9 +1,12 @@
 ---
 title: Changelog
 ---
+## Version 2026.4.17
+* Add March monthly measures for CPS basic monthly indicators and CPI adjusted indicators
 
 ## Version 2026.3.19
-* Add January February monthly measures for CPS basic monthly indicators and CPI adjusted indicators
+* Add February monthly measures for CPS basic monthly indicators and CPI adjusted indicators
+* Add income topic with household income from published ACS tables by state
 * Note January 2026 CPS basic monthly data was re-released by Census to reflect 2026 population controls, that were initially delayed. As a result, indicators based on the monthly CPS for January 2026 from this version will not match the prior version.
 
 
