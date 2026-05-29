@@ -1,6 +1,10 @@
 ---
 title: Changelog
 ---
+
+## Version 2026.5.27
+* Add April monthly measures for CPS basic monthly indicators and CPI adjusted indicators
+
 ## Version 2026.4.17
 * Add March monthly measures for CPS basic monthly indicators and CPI adjusted indicators
 

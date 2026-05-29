@@ -4,14 +4,21 @@
     "href": "news.html",
     "title": "Changelog",
     "section": "",
-    "text": "Add March monthly measures for CPS basic monthly indicators and CPI adjusted indicators"
+    "text": "Add April monthly measures for CPS basic monthly indicators and CPI adjusted indicators"
+  },
+  {
+    "objectID": "news.html#version-2026.5.27",
+    "href": "news.html#version-2026.5.27",
+    "title": "Changelog",
+    "section": "",
+    "text": "Add April monthly measures for CPS basic monthly indicators and CPI adjusted indicators"
   },
   {
     "objectID": "news.html#version-2026.4.17",
     "href": "news.html#version-2026.4.17",
     "title": "Changelog",
-    "section": "",
-    "text": "Add March monthly measures for CPS basic monthly indicators and CPI adjusted indicators"
+    "section": "Version 2026.4.17",
+    "text": "Version 2026.4.17\n\nAdd March monthly measures for CPS basic monthly indicators and CPI adjusted indicators"
   },
   {
     "objectID": "news.html#version-2026.3.19",
@@ -144,14 +151,14 @@
     "href": "index.html#downloads",
     "title": "Download all the data",
     "section": "Downloads",
-    "text": "Downloads\nDownload .csv files of latest version of the data, Version 2026.4.17: epi_swa_data_library.zip\nArchived versions of the data are here."
+    "text": "Downloads\nDownload .csv files of latest version of the data, Version 2026.5.27: epi_swa_data_library.zip\nArchived versions of the data are here."
   },
   {
     "objectID": "index.html#citation",
     "href": "index.html#citation",
     "title": "Download all the data",
     "section": "Citation",
-    "text": "Citation\nIf you use the data, please cite it:\n\n\n\n\n\n\nSource\n\n\n\nEconomic Policy Institute. 2026. State of Working America Data Library, Version 2026.4.17. https://data.epi.org."
+    "text": "Citation\nIf you use the data, please cite it:\n\n\n\n\n\n\nSource\n\n\n\nEconomic Policy Institute. 2026. State of Working America Data Library, Version 2026.5.27. https://data.epi.org."
   },
   {
     "objectID": "index.html#data-file-contents",
@@ -165,6 +172,6 @@
     "href": "index.html#file-contents",
     "title": "Download all the data",
     "section": "File contents",
-    "text": "File contents\nEach .csv file contains the following columns\n\n\n\n\n\n\n\n\n\nColumn name\nColumn description\n\n\n\n\ndata_version\nVersion of the data\n\n\nindicator\nIndicator\n\n\nmeasure\nOutcome measure\n\n\ndate_interval\nTime frequency of the data: ‘year’, ‘quarter’, or ‘month’\n\n\nyear\nYear\n\n\nquarter\nQuarter\n\n\nmonth\nMonth\n\n\ngeo_type\nGeography type: ‘national’, ‘state’, ‘division’, or ‘region’\n\n\ngeo_name\nGeography name\n\n\ngeo_code\nNumeric geographic identifier\n\n\ngroup\nGroup: e.g, ‘Gender’ or ‘Race/Ethnicity X Gender’\n\n\ngroup_value\nGroup value: e.g., ‘Female’ or ‘Hispanic X Female’\n\n\nvalue\nData value\n\n\n\n\n\nEach time series in the EPI Data Library is a unique combination of the columns indicator geo_name measure year month quarter group_value\nEach row of the data represents a value from a given time series."
+    "text": "File contents\nEach .csv file contains the following columns\n\n\nWarning: There was 1 warning in `mutate()`.\nℹ In argument: `col_description = case_match(...)`.\nCaused by warning:\n! `case_match()` was deprecated in dplyr 1.2.0.\nℹ Please use `recode_values()` instead.\n\n\n\n\n\n\n\n\n\nColumn name\nColumn description\n\n\n\n\ndata_version\nVersion of the data\n\n\nindicator\nIndicator\n\n\nmeasure\nOutcome measure\n\n\ndate_interval\nTime frequency of the data: ‘year’, ‘quarter’, or ‘month’\n\n\nyear\nYear\n\n\nquarter\nQuarter\n\n\nmonth\nMonth\n\n\ngeo_type\nGeography type: ‘national’, ‘state’, ‘division’, or ‘region’\n\n\ngeo_name\nGeography name\n\n\ngeo_code\nNumeric geographic identifier\n\n\ngroup\nGroup: e.g, ‘Gender’ or ‘Race/Ethnicity X Gender’\n\n\ngroup_value\nGroup value: e.g., ‘Female’ or ‘Hispanic X Female’\n\n\nvalue\nData value\n\n\n\n\n\nEach time series in the EPI Data Library is a unique combination of the columns indicator geo_name measure year month quarter group_value\nEach row of the data represents a value from a given time series."
   }
 ]
