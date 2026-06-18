@@ -68,7 +68,7 @@ all_data |>
   colnames() |>
   as_tibble() |>
   rename(col_name = value) |>
-  mutate(col_description = case_match(
+  mutate(col_description = recode_values(
     col_name,
     "data_version" ~ "Version of the data",
     "indicator" ~ "Indicator",
