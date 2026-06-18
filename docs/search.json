@@ -4,14 +4,21 @@
     "href": "news.html",
     "title": "Changelog",
     "section": "",
-    "text": "Add April monthly measures for CPS basic monthly indicators and CPI adjusted indicators"
+    "text": "Add May monthly measures for CPS basic monthly indicators and CPI adjusted indicators"
+  },
+  {
+    "objectID": "news.html#version-2026.6.17",
+    "href": "news.html#version-2026.6.17",
+    "title": "Changelog",
+    "section": "",
+    "text": "Add May monthly measures for CPS basic monthly indicators and CPI adjusted indicators"
   },
   {
     "objectID": "news.html#version-2026.5.27",
     "href": "news.html#version-2026.5.27",
     "title": "Changelog",
-    "section": "",
-    "text": "Add April monthly measures for CPS basic monthly indicators and CPI adjusted indicators"
+    "section": "Version 2026.5.27",
+    "text": "Version 2026.5.27\n\nAdd April monthly measures for CPS basic monthly indicators and CPI adjusted indicators"
   },
   {
     "objectID": "news.html#version-2026.4.17",
@@ -151,14 +158,14 @@
     "href": "index.html#downloads",
     "title": "Download all the data",
     "section": "Downloads",
-    "text": "Downloads\nDownload .csv files of latest version of the data, Version 2026.5.27: epi_swa_data_library.zip\nArchived versions of the data are here."
+    "text": "Downloads\nDownload .csv files of latest version of the data, Version 2026.6.17: epi_swa_data_library.zip\nArchived versions of the data are here."
   },
   {
     "objectID": "index.html#citation",
     "href": "index.html#citation",
     "title": "Download all the data",
     "section": "Citation",
-    "text": "Citation\nIf you use the data, please cite it:\n\n\n\n\n\n\nSource\n\n\n\nEconomic Policy Institute. 2026. State of Working America Data Library, Version 2026.5.27. https://data.epi.org."
+    "text": "Citation\nIf you use the data, please cite it:\n\n\n\n\n\n\nSource\n\n\n\nEconomic Policy Institute. 2026. State of Working America Data Library, Version 2026.6.17. https://data.epi.org."
   },
   {
     "objectID": "index.html#data-file-contents",
