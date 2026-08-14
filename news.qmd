@@ -1,6 +1,10 @@
 ---
 title: Changelog
 ---
+## Version 2026.8.14
+* Add July monthly measures for CPS basic monthly indicators and CPI adjusted indicators
+* Add CEO Pay annual measures for 2025
+* Add 2025 Productivity Pay annual measures and 2026q1 quarterly measures
 
 ## Version 2026.7.16
 * Add June monthly measures for CPS basic monthly indicators and CPI adjusted indicators

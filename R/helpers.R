@@ -28,11 +28,11 @@ write_single_indicator_file <- function(input_file, output_dir, data_version) {
 }
 
 create_binary_release <- function(files, output_dir, zip_file) {
-  
+
   final_zip <- file.path(output_dir, zip_file)
-  
+
   zip(final_zip, files, mode = "cherry-pick")
-  
+
   final_zip
 }
 
