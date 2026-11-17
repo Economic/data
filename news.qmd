@@ -1,7 +1,11 @@
 ---
 title: Changelog
 ---
-## Version 2026.8.14
+## Version 2026.11.17
+* Add September and October 2026 monthly measures for CPS basic monthly indicators and CPI adjusted indicators
+* Remove chained CPI-U price measures, which duplicated the extended chained CPI-U (the extended series is identical to the chained CPI-U from 2000 onward)
+
+## Version 2026.9.22
 * Add August monthly measures for CPS basic monthly indicators and CPI adjusted indicators
 
 ## Version 2026.8.14
